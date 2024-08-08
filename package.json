@@ -40,5 +40,10 @@
     "undici": "*",
     "vite": "5.3.5",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "dependencies": {
+    "@fontsource-variable/rubik": "^5.0.22",
+    "@fontsource/space-mono": "^5.0.20",
+    "@qwikest/icons": "^0.0.13"
   }
 }

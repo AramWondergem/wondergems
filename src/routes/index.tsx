@@ -1,9 +1,11 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import {Header} from "~/components/Header/Header";
 
 export default component$(() => {
   return (
     <>
+      <Header/>
       <h1>Hi 👋</h1>
       <div>
         Can't wait to see what you build with qwik!
