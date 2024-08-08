@@ -12,9 +12,9 @@ export const Header = component$<HeaderProps>(() => {
   return (
       < >
       <div class={[styles.headerOuterbox, 'outerbox']} >
-          <div class={[styles.headerInnerbox ,'innerbox']}>
-              <div class={['hideOnDesktop', styles.headerSpacer, styles.headerMenu]}>
-                  <MoMenu/>
+          <div class={['innerbox' , styles.headerInnerbox]}>
+              <div class={['hideOnDesktop', styles.headerSpacer, styles.headerMenuWrapper]}>
+                  <MoMenu class={[styles.headerMenu]}/>
               </div>
               <div>
                   <h1 class={[styles.headerLogo]}><span>ARAM</span> <span class={[styles.headerLogoHide]}>WONDERGEM</span></h1>
@@ -22,7 +22,7 @@ export const Header = component$<HeaderProps>(() => {
               <div class={['hideOnMobile']}>
                   Navlinks
               </div>
-              <div class={['hideOnDesktop', ]}>
+              <div class={['hideOnDesktop', styles.headerMenuWrapper ]}>
                   <MoMenu class={[styles.headerMenu]}/>
               </div>
           </div>

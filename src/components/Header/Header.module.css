@@ -4,14 +4,17 @@
 
 .headerInnerbox {
     overflow: hidden;
-    display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
     justify-content: space-between;
-    align-items: center;
+    align-items: center !important;
 }
 
 .headerSpacer {
     color: var(--blue);
+}
+
+.headerMenuWrapper {
+    flex-shrink: 0;
 }
 
 .headerLogo{
