@@ -1,0 +1,39 @@
+.headerOuterbox {
+    background: var(--blue);
+}
+
+.headerInnerbox {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerSpacer {
+    color: var(--blue);
+}
+
+.headerLogo{
+   color: var(--yellow);
+    padding: 0;
+    margin:0;
+    line-height: 0.6;
+    font-size: var(--fontsize-1000);
+}
+
+.headerMenu {
+    font-size: var(--fontsize-800);
+}
+
+@media (max-width: 1150px) {
+    .headerLogoHide {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .headerInnerbox {
+        justify-content: space-around;
+    }
+}
