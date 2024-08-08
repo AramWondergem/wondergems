@@ -1,0 +1,16 @@
+.footerOuterbox {
+    background: var(--blue);
+}
+
+.footerInnerbox {
+    overflow: hidden;
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+.footerText {
+    color: var(--yellow);
+    padding: 0;
+    margin:0;
+    line-height: 0.6;
+}

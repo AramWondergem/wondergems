@@ -152,6 +152,10 @@ a:not([class]) {
     align-items: stretch;
 }
 
+.flexgrow {
+    flex-grow: 1;
+}
+
 @media (max-width: 768px) {
     .innerbox {
         margin: 0 var(--margin-innerbox-mobile);

@@ -3,6 +3,7 @@ import type { RequestHandler } from "@builder.io/qwik-city";
 import '@fontsource-variable/rubik';
 import '@fontsource/space-mono';
 import {Header} from "~/components/Header/Header";
+import {Footer} from "~/components/Footer/Footer";
 
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
@@ -20,5 +21,6 @@ export default component$(() => {
   return <>
     <Header/>
     <Slot />
+    <Footer />
     </>
 });
