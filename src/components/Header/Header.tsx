@@ -8,7 +8,7 @@ export interface HeaderProps {
 
 }
 
-export const Header = component$<HeaderProps>((props) => {
+export const Header = component$<HeaderProps>(() => {
   return (
       < >
       <div class={[styles.headerOuterbox, 'outerbox']} >
