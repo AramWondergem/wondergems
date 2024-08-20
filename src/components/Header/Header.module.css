@@ -18,11 +18,11 @@
 }
 
 .headerLogo{
-   color: var(--yellow);
+    color: var(--yellow);
     padding: 0;
     margin:0;
-    line-height: 0.6;
-    font-size: var(--fontsize-1000);
+    line-height: var(--line-height-headings);
+
 }
 
 .headerMenu {

@@ -132,6 +132,8 @@ a:not([class]) {
     --margin-innerbox-desktop: 20px;
     --margin-innerbox-mobile: 10px;
 
+    --line-height-headings: 0.66;
+
 
 
 }
@@ -188,19 +190,19 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: var(--fontsize-900);
+    font-size: var(--fontsize-1000);
 }
 
 h2 {
-    font-size: var(--fontsize-700);
+    font-size: var(--fontsize-1000);
 }
 
 h3 {
-    font-size: var(--fontsize-500);
+    font-size: var(--fontsize-900);
 }
 
 h4 {
-    font-size: var(--fontsize-300);
+    font-size: var(--fontsize-500);
 }
 
 a, .Navlink, .Link {
