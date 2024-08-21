@@ -12,5 +12,6 @@
     color: var(--yellow);
     padding: 0;
     margin:0;
-    line-height: var(--line-height-headings);
+    font-size: var(--fontsize-400);
+    line-height: 0.7;
 }

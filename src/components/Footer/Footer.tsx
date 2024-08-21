@@ -9,7 +9,7 @@ export const Footer = component$<FooterProps>(() => {
   return (
     <div class={[styles.footerOuterbox, 'outerbox']}>
       <div class={[styles.footerInnerbox, 'innerbox']}>
-          <h4 class={[styles.footerText]}>COPYRIGHT © {new Date().getFullYear()} ARAM WONDERGEM</h4>
+          <footer class={[styles.footerText]}><small>COPYRIGHT © {new Date().getFullYear()} ARAM WONDERGEM</small></footer>
       </div>
     </div>
   );

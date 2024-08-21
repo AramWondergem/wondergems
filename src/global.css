@@ -198,11 +198,11 @@ h2 {
 }
 
 h3 {
-    font-size: var(--fontsize-900);
+    font-size: var(--fontsize-800);
 }
 
 h4 {
-    font-size: var(--fontsize-500);
+    font-size: var(--fontsize-600);
 }
 
 a, .Navlink, .Link {
