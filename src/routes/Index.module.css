@@ -1,0 +1,12 @@
+.outerboxPage {
+    flex-direction: column;
+    align-items: center;
+}
+
+.innerBoxPage {
+    flex: 1 1 0;
+    max-width: var(--basic-screen-width);
+    width: 100%;
+    align-items: center;
+    gap: 40px;
+}
