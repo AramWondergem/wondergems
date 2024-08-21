@@ -123,10 +123,7 @@ a:not([class]) {
     --rose: hsla(332, 96%, 64%, 1);
     --yellow: hsla(49, 93%, 56%, 1);
     --white: hsla(105, 67%, 96%, 1);
-    --hot-pink: hsla(332, 96%, 72%, 1);
 
-
-hsla(332, 96%, 56%, 1);
 
 
     --background-body: var(--white);
