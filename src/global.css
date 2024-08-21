@@ -125,6 +125,7 @@ a:not([class]) {
     --white: hsla(105, 67%, 96%, 1);
 
 
+
     --background-body: var(--white);
 
 
@@ -157,6 +158,10 @@ a:not([class]) {
 .flexgrow {
     flex-grow: 1;
 }
+
+
+
+
 
 @media (max-width: 768px) {
     .innerbox {
