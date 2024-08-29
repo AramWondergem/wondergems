@@ -19,11 +19,11 @@ export const Header = component$<HeaderProps>(() => {
               <div>
                   <h1 class={[styles.headerLogo]}><span>ARAM</span> <span class={[styles.headerLogoHide]}>WONDERGEM</span></h1>
               </div>
-              <div class={['hideOnMobile']}>
+              <div class={['hideOnMobile', styles.navLinks]}>
                   Navlinks
               </div>
               <div class={['hideOnDesktop', styles.headerMenuWrapper ]}>
-                  <MoMenu class={[styles.headerMenu]}/>
+                  <MoMenu class={[styles.headerMenu, styles.headerMenuButton]}/>
               </div>
           </div>
       </div>

@@ -1,0 +1,35 @@
+.spanStyle {
+    color: var(--yellow);
+    font-weight: var(--font-weight-700);
+    padding: 0.2em;
+    margin-right: 4px;
+    background: var(--blue);
+    border-radius: 0.2em;
+    box-shadow: 4px 4px 0px 0px var(--rose);
+    line-height: 1;
+    white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+
+.1000 {
+    font-size: var(--fontsize-1000);
+}
+
+}
+
+@media (min-width: 426px) {
+
+.1000 {
+    font-size: var(--fontsize-800);
+}
+
+    .block {
+        display: block;
+        width: fit-content;
+    }
+
+}
+
+
+
