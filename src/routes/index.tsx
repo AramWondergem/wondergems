@@ -24,7 +24,7 @@ export default component$(() => {
                 </Heading>
 
                 <Button onClick={onClick}>See my projects</Button>
-                <p>Hi there, My name is <Span size={1000} display={'block'}>ARAM WONDERGEM</Span><span class={[styles.hideOnDesktopAndTablet]}>.</span> I am a Full Stack Developer located in <Span>New York City</Span> who thrives on engaging in projects that solve real-world issues.
+                <p>Hi there, My name is <Span size={'big'} display={'block'}>ARAM WONDERGEM</Span><span class={[styles.hideOnDesktopAndTablet]}>.</span> I am a Full Stack Developer located in <Span>New York City</Span> who thrives on engaging in projects that solve real-world issues.
 
 
                 </p>
