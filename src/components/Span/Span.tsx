@@ -8,7 +8,7 @@ export interface SpanProps {
 
 export const Span = component$<SpanProps>((props) => {
     return (
-        <span class={[styles.spanStyle, `${styles[props.size]}`, `${styles[props.display]}`]}>
+        <span class={[styles.spanStyle]}>
             <Slot />
         </span>
     );

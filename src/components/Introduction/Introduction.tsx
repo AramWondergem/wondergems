@@ -10,16 +10,23 @@ export const Introduction = component$<IntroductionProps>(() => {
     return (
         <section class={['innerbox', styles.innerBoxPage]}>
             <p>
-                Hi there, My name is{' '}
-                <Span size={'big'} display={'block'}>
+                Hi there 🖐,<br/>
+                My name is{' '}
+                <Span>
                     ARAM WONDERGEM
-                </Span>
-                <span class={[styles.hideOnDesktopAndTablet]}>.</span> I am a Full Stack Developer
+                </Span>. <br className={[styles.hideOnDesktopAndTablet]}/>
+                I am a Full Stack Web Developer
                 located in <Span>New York City</Span> who thrives on engaging in projects that solve
                 real-world issues.
             </p>
 
-            <Button onClick={onClick}>See my projects</Button>
+            <div class={[styles.buttonWrapper]}>
+                <Button onClick={onClick}>See my projects</Button>
+                <span class={[styles.spanButton]}>or</span>
+                <Button onClick={onClick}>Learn more about me</Button>
+            </div>
+
+
         </section>
     );
 });

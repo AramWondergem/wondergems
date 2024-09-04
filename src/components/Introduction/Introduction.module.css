@@ -1,5 +1,6 @@
 .innerBoxPage {
-    flex: 1 1 100vh !important;
+    padding: 70px !important;
+    flex: 1 1 calc(100vh - 2.9rem) !important;
     max-width: var(--basic-screen-width);
     width: 100%;
     align-items: center !important;
@@ -8,7 +9,9 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+    align-content: center;
 }
+
 
 p {
     flex: 0 1 477px;
@@ -18,12 +21,31 @@ p {
     line-height: 3;
 }
 
-@media (min-width: 426px) {
+.buttonWrapper{
+    flex: 0 1 477px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    align-content: center;
+}
+
+.spanButton{
+    flex: 0 1 477px;
+    text-align: center;
+}
+
+@media (min-width: 4230px) {
     .hideOnDesktopAndTablet {
         display: none;
     }
 
     p {
         line-height: 4;
+        text-align: justify;
+
     }
 }
+
