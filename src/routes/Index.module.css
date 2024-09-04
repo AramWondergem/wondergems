@@ -10,3 +10,19 @@
     align-items: center !important;
     gap: 40px;
 }
+
+p {
+    line-height: 3;
+}
+
+
+
+@media (min-width: 426px) {
+    .hideOnDesktopAndTablet {
+        display: none;
+    }
+
+    p {
+        line-height: 4;
+    }
+}

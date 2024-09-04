@@ -29,6 +29,14 @@
     font-size: var(--fontsize-800);
 }
 
+.navLinks {
+    color: var(--white);
+}
+
+.headerMenuButton {
+    color: var(--white);
+}
+
 @media (max-width: 1150px) {
     .headerLogoHide {
         display: none;
