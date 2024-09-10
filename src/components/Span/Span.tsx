@@ -6,7 +6,7 @@ export interface SpanProps {
     display?: string;
 }
 
-export const Span = component$<SpanProps>((props) => {
+export const Span = component$<SpanProps>(() => {
     return (
         <span class={[styles.spanStyle]}>
             <Slot />

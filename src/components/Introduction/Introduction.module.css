@@ -12,7 +12,6 @@
     align-content: center;
 }
 
-
 p {
     flex: 0 1 477px;
     display: inline-block;
@@ -21,18 +20,18 @@ p {
     line-height: 3;
 }
 
-.buttonWrapper{
+.buttonWrapper {
     flex: 0 1 477px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap:30px;
+    gap: 30px;
     align-content: center;
 }
 
-.spanButton{
+.spanButton {
     flex: 0 1 477px;
     text-align: center;
 }
@@ -45,7 +44,5 @@ p {
     p {
         line-height: 4;
         text-align: justify;
-
     }
 }
-
