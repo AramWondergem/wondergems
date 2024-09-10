@@ -3,9 +3,10 @@
 /*
   1. Use a more-intuitive box-sizing model.
 */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-
 }
 
 /*
@@ -15,13 +16,13 @@
     margin: 0;
     padding: 0;
     font: inherit;
-
 }
 
 /*
   3. Allow percentage-based heights in the application
 */
-html, body {
+html,
+body {
     height: 100vh;
 }
 
@@ -39,17 +40,26 @@ body {
 /*
   6. Improve media defaults
 */
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
     display: block;
     max-width: 100%;
     max-height: 100%;
-
 }
 
 /*
   8. Avoid text overflows
 */
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     overflow-wrap: break-word;
 }
 
@@ -87,11 +97,9 @@ a:not([class]) {
 
 /*-------------------Global Styles-----------------------------*/
 
-
 /*-------------------custom properties------------------------- */
 
 :root {
-
     --font-headings: 'Rubik Variable', sans-serif;
     --font-body: 'Rubik Variable', sans-serif;
 
@@ -124,19 +132,13 @@ a:not([class]) {
     --yellow: hsla(49, 93%, 56%, 1);
     --white: hsla(105, 67%, 96%, 1);
 
-
-
     --background-body: var(--white);
-
 
     --basic-screen-width: 1300px;
     --margin-innerbox-desktop: 20px;
     --margin-innerbox-mobile: 10px;
 
     --line-height-headings: 0.66;
-
-
-
 }
 
 /*-------------------utility classes --------------------------*/
@@ -155,15 +157,9 @@ a:not([class]) {
     align-items: stretch;
 }
 
-
-
 .flexgrow {
     flex-grow: 1;
 }
-
-
-
-
 
 @media (max-width: 768px) {
     .innerbox {
@@ -182,15 +178,22 @@ a:not([class]) {
 
 /*------------------Fonts-----------------*/
 
-body, p, button, textarea, input, label {
+body,
+p,
+button,
+textarea,
+input,
+label {
     font-family: var(--font-body);
     font-weight: var(--font-weight-400);
     font-size: var(--fontsize-600);
     color: var(--blue);
 }
 
-
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: var(--font-headings);
     font-weight: var(--font-weight-700);
     color: var(--white);
@@ -212,7 +215,9 @@ h4 {
     font-size: var(--fontsize-600);
 }
 
-a, .Navlink, .Link {
+a,
+.Navlink,
+.Link {
     font-family: var(--font-headings);
     font-weight: var(--font-weight-700);
 }
@@ -221,5 +226,3 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-
