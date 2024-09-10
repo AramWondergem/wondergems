@@ -6,10 +6,10 @@
     overflow: hidden;
 }
 
-.headerText{
+.headerText {
     color: var(--blue);
     padding: 0;
-    margin:0;
+    margin: 0;
     line-height: var(--line-height-headings);
 }
 

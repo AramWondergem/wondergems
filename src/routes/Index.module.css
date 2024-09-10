@@ -15,8 +15,6 @@ p {
     line-height: 3;
 }
 
-
-
 @media (min-width: 426px) {
     .hideOnDesktopAndTablet {
         display: none;

@@ -11,25 +11,18 @@
 }
 
 @media (min-width: 768px) {
-
-.big {
-    font-size: var(--fontsize-1000);
-}
-
+    .big {
+        font-size: var(--fontsize-1000);
+    }
 }
 
 @media (min-width: 426px) {
-
-.big {
-    font-size: var(--fontsize-800);
-}
+    .big {
+        font-size: var(--fontsize-800);
+    }
 
     .block {
         display: block;
         width: fit-content;
     }
-
 }
-
-
-

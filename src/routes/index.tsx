@@ -1,10 +1,9 @@
-import {component$, $} from "@builder.io/qwik";
-import type {DocumentHead} from "@builder.io/qwik-city";
-import {Heading} from "~/components/Heading/Heading";
-import {Button} from "~/components/Button/Button";
-import {Span} from "~/components/Span/Span"
-import styles from "./Index.module.css"
-
+import { component$, $ } from '@builder.io/qwik';
+import type { DocumentHead } from '@builder.io/qwik-city';
+import { Heading } from '~/components/Heading/Heading';
+import { Button } from '~/components/Button/Button';
+import { Span } from '~/components/Span/Span';
+import styles from './Index.module.css';
 
 export default component$(() => {
     const onClick = $(() => alert('Hallo hier ben ik'));
@@ -15,7 +14,6 @@ export default component$(() => {
                 <h2>ABOUT</h2>
             </Heading>
             <div class={['innerbox', styles.innerBoxPage]}>
-
                 <Heading bgColor={'rose'}>
                     <h3>TECHNOLOGY</h3>
                 </Heading>
@@ -24,9 +22,14 @@ export default component$(() => {
                 </Heading>
 
                 <Button onClick={onClick}>See my projects</Button>
-                <p>Hi there, My name is <Span size={'big'} display={'block'}>ARAM WONDERGEM</Span><span class={[styles.hideOnDesktopAndTablet]}>.</span> I am a Full Stack Developer located in <Span>New York City</Span> who thrives on engaging in projects that solve real-world issues.
-
-
+                <p>
+                    Hi there, My name is{' '}
+                    <Span size={'big'} display={'block'}>
+                        ARAM WONDERGEM
+                    </Span>
+                    <span class={[styles.hideOnDesktopAndTablet]}>.</span> I am a Full Stack
+                    Developer located in <Span>New York City</Span> who thrives on engaging in
+                    projects that solve real-world issues.
                 </p>
             </div>
         </div>
@@ -34,11 +37,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-    title: "Welcome to Qwik",
+    title: 'Welcome to Qwik',
     meta: [
         {
-            name: "description",
-            content: "Qwik site description",
-        },
-    ],
+            name: 'description',
+            content: 'Qwik site description'
+        }
+    ]
 };

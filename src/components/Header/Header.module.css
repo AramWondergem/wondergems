@@ -17,12 +17,11 @@
     flex-shrink: 0;
 }
 
-.headerLogo{
+.headerLogo {
     color: var(--yellow);
     padding: 0;
-    margin:0;
+    margin: 0;
     line-height: var(--line-height-headings);
-
 }
 
 .headerMenu {
