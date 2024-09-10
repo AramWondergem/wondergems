@@ -2,25 +2,3 @@
     flex-direction: column !important;
     align-items: center !important;
 }
-
-.innerBoxPage {
-    flex: 1 1 0 !important;
-    max-width: var(--basic-screen-width);
-    width: 100%;
-    align-items: center !important;
-    gap: 40px;
-}
-
-p {
-    line-height: 3;
-}
-
-@media (min-width: 426px) {
-    .hideOnDesktopAndTablet {
-        display: none;
-    }
-
-    p {
-        line-height: 4;
-    }
-}

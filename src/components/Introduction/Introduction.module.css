@@ -1,0 +1,29 @@
+.innerBoxPage {
+    flex: 1 1 100vh !important;
+    max-width: var(--basic-screen-width);
+    width: 100%;
+    align-items: center !important;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+p {
+    flex: 0 1 477px;
+    display: inline-block;
+    width: max-content;
+    max-width: 600px;
+    line-height: 3;
+}
+
+@media (min-width: 426px) {
+    .hideOnDesktopAndTablet {
+        display: none;
+    }
+
+    p {
+        line-height: 4;
+    }
+}
