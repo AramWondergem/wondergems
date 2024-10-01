@@ -1,6 +1,6 @@
 .innerBoxPage {
     padding: 70px !important;
-    flex: 1 1 calc(100vh - 2.9rem) !important;
+    flex: 1 1 calc(100vh - var(--size-header)) !important;
     max-width: var(--basic-screen-width);
     width: 100%;
     align-items: center !important;

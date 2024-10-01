@@ -8,7 +8,6 @@ export default component$(() => {
         <div class={['outerbox']}>
             <Introduction />
             <ProjectBlock />
-            <ProjectBlock />
         </div>
     );
 });

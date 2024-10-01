@@ -139,6 +139,8 @@ a:not([class]) {
     --margin-innerbox-mobile: 10px;
 
     --line-height-headings: 0.66;
+
+    --size-header: 2.9rem;
 }
 
 /*-------------------utility classes --------------------------*/
@@ -196,7 +198,7 @@ h3,
 h4 {
     font-family: var(--font-headings);
     font-weight: var(--font-weight-700);
-    color: var(--white);
+    color: var(--blue);
 }
 
 h1 {

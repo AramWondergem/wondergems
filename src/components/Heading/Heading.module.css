@@ -5,7 +5,7 @@
     align-items: center;
     overflow: hidden;
     position: sticky;
-    top: 2.9rem;
+    top: var(--size-header);
 }
 
 .headerText {
@@ -21,4 +21,10 @@
 
 .yellow {
     background: var(--yellow);
+}
+
+@media (max-width: 534px) {
+    h2 {
+        font-size: var(--fontsize-900) !important;
+    }
 }
