@@ -1,16 +1,14 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-import { Heading } from '~/components/Heading/Heading';
-import styles from './Index.module.css';
 import { Introduction } from '~/components/Introduction/Introduction';
+import { ProjectBlock } from '~/components/Project-block/Project-block';
 
 export default component$(() => {
     return (
-        <div class={['flexgrow', 'outerbox', styles.outerboxPage]}>
+        <div class={['outerbox']}>
             <Introduction />
-            <Heading bgColor={'rose'}>
-                <h2>ABOUT</h2>
-            </Heading>
+            <ProjectBlock />
+            <ProjectBlock />
         </div>
     );
 });

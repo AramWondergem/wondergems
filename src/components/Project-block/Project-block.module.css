@@ -1,0 +1,19 @@
+.innerBoxPage {
+    /*padding: 70px !important;*/
+    /*flex: 0 1 calc(200vh - 2.9rem) !important;*/
+    /*max-width: var(--basic-screen-width);*/
+    /*width: 100%;*/
+    /*align-items: center !important;*/
+    /*gap: 100px;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-wrap: wrap;*/
+    /*flex-direction: row;*/
+    /*align-content: center;*/
+
+    height: 2800px;
+}
+
+.header {
+    color: white;
+}

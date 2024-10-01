@@ -1,4 +1,5 @@
 .footerOuterbox {
+    flex-direction: row !important;
     background: var(--blue);
 }
 
