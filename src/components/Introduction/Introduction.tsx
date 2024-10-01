@@ -12,10 +12,9 @@ export const Introduction = component$<IntroductionProps>(() => {
             <p>
                 Hi there 🖐,
                 <br />
-                My name is <Span>ARAM WONDERGEM</Span>.{' '}
-                <br class={[styles.hideOnDesktopAndTablet]} />I am a Full Stack Web Developer
-                located in <Span>New York City</Span> who thrives on engaging in projects that solve
-                real-world issues.
+                My name is <Span>ARAM WONDERGEM</Span>. I am a Full Stack Web Developer located in{' '}
+                <Span>New York City</Span> who thrives on engaging in projects that solve real-world
+                issues.
             </p>
 
             <div class={[styles.buttonWrapper]}>

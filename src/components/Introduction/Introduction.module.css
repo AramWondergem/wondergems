@@ -16,7 +16,6 @@ p {
     flex: 0 1 477px;
     display: inline-block;
     width: max-content;
-    max-width: 600px;
     line-height: 3;
 }
 
@@ -36,13 +35,12 @@ p {
     text-align: center;
 }
 
-@media (min-width: 4230px) {
+@media (min-width: 534px) {
     .hideOnDesktopAndTablet {
         display: none;
     }
 
     p {
-        line-height: 4;
         text-align: justify;
     }
 }
