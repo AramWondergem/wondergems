@@ -1,5 +1,7 @@
 .headerOuterbox {
     background: var(--blue);
+    position: sticky !important;
+    top: 0;
 }
 
 .headerInnerbox {
