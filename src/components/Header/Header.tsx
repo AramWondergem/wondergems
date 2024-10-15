@@ -9,7 +9,7 @@ export const Header = component$<HeaderProps>(() => {
     return (
         <>
             <div class={[styles.headerOuterbox, 'outerbox']}>
-                <div class={['innerbox', styles.headerInnerbox]}>
+                <div class={[styles.headerInnerbox]}>
                     <div class={['hideOnDesktop', styles.headerSpacer, styles.headerMenuWrapper]}>
                         <MoMenu class={[styles.headerMenu]} />
                     </div>

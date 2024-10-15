@@ -135,10 +135,13 @@ a:not([class]) {
     --background-body: var(--white);
 
     --basic-screen-width: 1300px;
-    --margin-innerbox-desktop: 20px;
-    --margin-innerbox-mobile: 10px;
+    --margin-innerbox-desktop-top: 70px;
+    --margin-innerbox-desktop-side: 40px;
+    --margin-innerbox-mobile-top: 70px;
+    --margin-innerbox-mobile-side: 15px;
 
     --line-height-headings: 0.66;
+    --line-height-headings-small: 0.7;
 
     --size-header: 2.9rem;
 }
@@ -154,18 +157,13 @@ a:not([class]) {
 }
 
 .innerbox {
-    flex: 0 1 var(--basic-screen-width);
-    padding: 0 var(--margin-innerbox-desktop);
     display: flex;
-}
-
-.flexgrow {
-    flex-grow: 1;
+    padding: var(--margin-innerbox-desktop-top) var(--margin-innerbox-desktop-side);
 }
 
 @media (max-width: 768px) {
     .innerbox {
-        padding: 0 var(--margin-innerbox-mobile);
+        padding: var(--margin-innerbox-mobile-top) var(--margin-innerbox-mobile-side);
     }
     .hideOnMobile {
         display: none;
@@ -182,14 +180,17 @@ a:not([class]) {
 
 body,
 p,
-button,
 textarea,
 input,
 label {
     font-family: var(--font-body);
     font-weight: var(--font-weight-400);
-    font-size: var(--fontsize-600);
+    font-size: var(--fontsize-400);
     color: var(--blue);
+}
+
+button {
+    font-size: var(--fontsize-500);
 }
 
 h1,

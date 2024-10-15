@@ -10,7 +10,7 @@ export const Introduction = component$<IntroductionProps>(() => {
     return (
         <section class={['outerbox']}>
             <div class={['innerbox', styles.innerBoxPage]}>
-                <p>
+                <p class={[styles.textIntroduction]}>
                     Hi there 🖐,
                     <br />
                     My name is <Span>ARAM WONDERGEM</Span>. I am a Full Stack Web Developer located
