@@ -1,0 +1,68 @@
+{
+    "projects": [
+        {
+            "title": "AED CHECKER",
+            "images": [
+                {
+                    "type": "MOBILE",
+                    "url": "src/assets/surfer-240-200.jpg",
+                    "alt": "Mobile version of AED Checker image"
+                },
+                {
+                    "type": "DESKTOP",
+                    "url": "src/assets/image1.png",
+                    "alt": "Desktop version of AED Checker image"
+                }
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eaque eos fuga ipsa nostrum placeat quas quisquam reprehenderit temporibus veritatis! Accusamus ad aperiam corporis dolorem expedita nam nostrum nulla sunt!",
+            "tasks": [
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem fugit nam optio reiciendis? Animi earum fugiat nobis tempora vel?",
+                "Autem cumque deserunt harum illo, laboriosam magni modi, neque obcaecati perferendis quasi recusandae sequi vero voluptatum. Delectus dicta odit quod?",
+                "Accusantium ad adipisci alias at aut blanditiis dignissimos esse explicabo, fugit ipsum molestiae molestias pariatur provident quas sint vel velit."
+            ],
+            "technologies": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias atque blanditiis culpa et mollitia nostrum tenetur vero! Adipisci dolore ex fugit minima reprehenderit saepe, veritatis vitae? Facere, rem, voluptatum!",
+            "buttons": [
+                {
+                    "label": "Website",
+                    "url": "https://example.com/aed-checker-website"
+                },
+                {
+                    "label": "Code base",
+                    "url": "https://example.com/aed-checker-codebase"
+                }
+            ]
+        },
+        {
+            "title": "PROJECT OPTIMIZER",
+            "images": [
+                {
+                    "type": "MOBILE",
+                    "url": "https://example.com/assets/image2-mobile.png",
+                    "alt": "Mobile version of Project Optimizer image"
+                },
+                {
+                    "type": "DESKTOP",
+                    "url": "https://example.com/assets/image2-desktop.png",
+                    "alt": "Desktop version of Project Optimizer image"
+                }
+            ],
+            "description": "This project aims to optimize and streamline project workflows. Includes features such as task management, resource allocation, and progress tracking.",
+            "tasks": [
+                "Conducted a thorough requirement analysis to understand client needs.",
+                "Designed and implemented a user-friendly interface with React and TypeScript.",
+                "Integrated various APIs for seamless data flow and management."
+            ],
+            "technologies": "React, TypeScript, Node.js, GraphQL, PostgreSQL",
+            "buttons": [
+                {
+                    "label": "Website",
+                    "url": "https://example.com/project-optimizer-website"
+                },
+                {
+                    "label": "Code base",
+                    "url": "https://example.com/project-optimizer-codebase"
+                }
+            ]
+        }
+    ]
+}
