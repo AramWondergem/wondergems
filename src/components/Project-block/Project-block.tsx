@@ -1,8 +1,9 @@
 import { component$ } from '@builder.io/qwik';
 import styles from './Project-block.module.css';
-import { Heading } from '~/components/Heading/Heading';
-import { ProjectData, ProjectTile } from '~/components/Project-tile/Project-tile';
+import { Heading } from '~/shared/components/Heading/Heading';
+import { ProjectTile } from '~/components/Project-block/Project-tile/Project-tile';
 import projectData from '~/assets/project-data.json';
+import { ProjectData } from '~/components/Project-block/model';
 
 export interface ProjectBlockProps {}
 

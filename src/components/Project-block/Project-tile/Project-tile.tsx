@@ -1,32 +1,8 @@
 import { $, component$ } from '@builder.io/qwik';
-import { Button } from '~/components/Button/Button';
-import { Heading } from '~/components/Heading/Heading';
+import { Button } from '~/shared/components/Button/Button';
+import { Heading } from '~/shared/components/Heading/Heading';
 import styles from './Project-tile.module.css';
-
-export enum ImageType {
-    MOBILE = 'MOBILE',
-    DESKTOP = 'DESKTOP'
-}
-
-export interface ProjectImage {
-    type: ImageType;
-    url: string;
-    alt: string;
-}
-
-export interface ProjectButton {
-    label: string;
-    url: string;
-}
-
-export interface ProjectData {
-    title: string;
-    images: ProjectImage[];
-    description: string;
-    tasks: string[];
-    technologies: string;
-    buttons: ProjectButton[];
-}
+import { ImageType, ProjectData } from '~/components/Project-block/model';
 
 export interface ProjectTileProps {
     data: ProjectData;

@@ -1,7 +1,7 @@
 import { $, component$ } from '@builder.io/qwik';
 import styles from './Introduction.module.css';
-import { Button } from '~/components/Button/Button';
-import { Span } from '~/components/Span/Span';
+import { Button } from '~/shared/components/Button/Button';
+import { Span } from '~/shared/components/Span/Span';
 
 export interface IntroductionProps {}
 
