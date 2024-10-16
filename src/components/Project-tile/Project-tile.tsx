@@ -3,49 +3,85 @@ import { Button } from '~/components/Button/Button';
 import { Heading } from '~/components/Heading/Heading';
 import styles from './Project-tile.module.css';
 
-export interface ProjectTileProps {}
+export enum ImageType {
+    MOBILE = 'MOBILE',
+    DESKTOP = 'DESKTOP'
+}
 
-export const ProjectTile = component$<ProjectTileProps>(() => {
-    const onClick = $(() => alert('Hallo hier ben ik'));
+export interface ProjectImage {
+    type: ImageType;
+    url: string;
+    alt: string;
+}
+
+export interface ProjectButton {
+    label: string;
+    url: string;
+}
+
+export interface ProjectData {
+    title: string;
+    images: ProjectImage[];
+    description: string;
+    tasks: string[];
+    technologies: string;
+    buttons: ProjectButton[];
+}
+
+export interface ProjectTileProps {
+    data: ProjectData;
+}
+
+export const ProjectTile = component$<ProjectTileProps>((props) => {
+    const { title, images, description, tasks, technologies, buttons }: ProjectData = props.data;
+
+    const openInNewTab = $((url: string) => {
+        window.open(url, '_blank');
+    });
+
     return (
         <li class={[styles.projectWrapper]}>
-            <h3 class={[styles.projectHeader]}>AED CHECKER</h3>
+            <h3 class={[styles.projectHeader]}>{title}</h3>
             <div class={[styles.contentWrapper]}>
+                <picture class={[styles.pictureWrapper]}>
+                    {images.map((image, index) => (
+                        <source
+                            key={`projectPicture${index}`}
+                            srcset={image.url}
+                            media={
+                                image.type === 'MOBILE'
+                                    ? '(max-width: 599px)'
+                                    : '(min-width: 600px)'
+                            }
+                        />
+                    ))}
+                    {images
+                        .filter((image) => image.type === ImageType.DESKTOP)
+                        .map((image) => (
+                            <img width={'100%'} height={'100%'} src={image.url} alt={image.alt} />
+                        ))}
+                </picture>
                 <div class={[styles.textWrapper]}>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eaque
-                        eos fuga ipsa nostrum placeat quas quisquam reprehenderit temporibus
-                        veritatis! Accusamus ad aperiam corporis dolorem expedita nam nostrum nulla
-                        sunt!
-                    </p>
+                    <p>{description}</p>
                     <Heading bgColor={'yellow'} size={'small'}>
                         <h4>TASKS</h4>
                     </Heading>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, aut
-                        perspiciatis. Accusamus aliquid ducimus eveniet inventore laudantium sit
-                        voluptatem. Deserunt earum enim esse fuga iusto optio quibusdam, tempora
-                        tenetur voluptatum.
-                    </p>
+                    <ul class={[styles.listItemsProject]}>
+                        {tasks.map((task, index) => (
+                            <li key={`taskProject${title + index}`}>{task}</li>
+                        ))}
+                    </ul>
                     <Heading bgColor={'yellow'} size={'small'}>
                         <h4>TECHNOLOGIES</h4>
                     </Heading>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias
-                        atque blanditiis culpa et mollitia nostrum tenetur vero! Adipisci dolore ex
-                        fugit minima reprehenderit saepe, veritatis vitae? Facere, rem, voluptatum!
-                    </p>
+                    <p>{technologies}</p>
                     <div class={[styles.buttonWrapper]}>
-                        <Button disabled={false} onClick={onClick}>
-                            Website
-                        </Button>
-                        <Button disabled={false} onClick={onClick}>
-                            Code base
-                        </Button>
+                        {buttons.map((button) => (
+                            <Button disabled={false} onClick={$(() => openInNewTab(button.url))}>
+                                {button.label}
+                            </Button>
+                        ))}
                     </div>
-                </div>
-                <div class={[styles.pictureWrapper]}>
-                    <picture />
                 </div>
             </div>
         </li>
