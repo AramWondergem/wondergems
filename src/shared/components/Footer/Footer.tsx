@@ -6,7 +6,7 @@ export interface FooterProps {}
 export const Footer = component$<FooterProps>(() => {
     return (
         <div class={[styles.footerOuterbox, 'outerbox']}>
-            <div class={[styles.footerInnerbox, 'innerbox']}>
+            <div class={[styles.footerInnerbox]}>
                 <footer class={[styles.footerText]}>
                     <small>COPYRIGHT © {new Date().getFullYear()} ARAM WONDERGEM</small>
                 </footer>

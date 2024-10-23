@@ -1,6 +1,5 @@
 .innerBoxPage {
-    padding: 70px !important;
-    flex: 1 1 calc(100vh - 2.9rem) !important;
+    flex: 1 1 calc(100vh - var(--size-header)) !important;
     max-width: var(--basic-screen-width);
     width: 100%;
     align-items: center !important;
@@ -12,11 +11,12 @@
     align-content: center;
 }
 
-p {
+.textIntroduction {
     flex: 0 1 477px;
     display: inline-block;
     width: max-content;
     line-height: 3;
+    font-size: var(--fontsize-600);
 }
 
 .buttonWrapper {
@@ -28,6 +28,7 @@ p {
     align-items: center;
     gap: 30px;
     align-content: center;
+    font-size: var(--fontsize-600);
 }
 
 .spanButton {
@@ -40,7 +41,7 @@ p {
         display: none;
     }
 
-    p {
+    .textIntroduction {
         text-align: justify;
     }
 }

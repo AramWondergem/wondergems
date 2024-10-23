@@ -2,8 +2,8 @@ import { component$, Slot } from '@builder.io/qwik';
 import type { RequestHandler } from '@builder.io/qwik-city';
 import '@fontsource-variable/rubik';
 import '@fontsource/space-mono';
-import { Header } from '~/components/Header/Header';
-import { Footer } from '~/components/Footer/Footer';
+import { Header } from '~/shared/components/Header/Header';
+import { Footer } from '~/shared/components/Footer/Footer';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
     // Control caching for this request for best performance and to reduce hosting costs:

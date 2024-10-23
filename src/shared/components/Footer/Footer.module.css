@@ -1,10 +1,13 @@
 .footerOuterbox {
+    flex-direction: row !important;
     background: var(--blue);
 }
 
 .footerInnerbox {
+    display: flex;
+    padding: 0 10px;
     overflow: hidden;
-    flex-direction: row !important;
+    flex-direction: row;
     justify-content: center;
 }
 

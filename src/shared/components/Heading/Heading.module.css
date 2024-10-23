@@ -20,3 +20,18 @@
 .yellow {
     background: var(--yellow);
 }
+
+@media (max-width: 534px) {
+    h2 {
+        font-size: var(--fontsize-900) !important;
+    }
+}
+
+.small {
+    line-height: var(--line-height-headings-small);
+}
+
+.big {
+    position: sticky;
+    top: var(--size-header);
+}
