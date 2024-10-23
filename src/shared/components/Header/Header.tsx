@@ -1,11 +1,12 @@
-import { component$ } from '@builder.io/qwik';
+import { component$, Signal, useSignal } from '@builder.io/qwik';
 import styles from './Header.module.css';
-
 import { MoMenu } from '@qwikest/icons/monoicons';
+import { Menu } from '~/shared/components/Menu/Menu';
 
 export interface HeaderProps {}
 
 export const Header = component$<HeaderProps>(() => {
+    const isOpen: Signal<boolean> = useSignal(false);
     return (
         <>
             <div class={[styles.headerOuterbox, 'outerbox']}>
@@ -19,11 +20,15 @@ export const Header = component$<HeaderProps>(() => {
                         </h1>
                     </div>
                     <div class={['hideOnMobile', styles.navLinks]}>Navlinks</div>
-                    <div class={['hideOnDesktop', styles.headerMenuWrapper]}>
+                    <button
+                        class={['hideOnDesktop', styles.headerMenuWrapper]}
+                        onClick$={() => (isOpen.value = true)}
+                    >
                         <MoMenu class={[styles.headerMenu, styles.headerMenuButton]} />
-                    </div>
+                    </button>
                 </div>
             </div>
+            <Menu isOpen={isOpen} />
         </>
     );
 });

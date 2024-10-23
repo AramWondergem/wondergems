@@ -1,0 +1,17 @@
+.menu {
+    background: var(--blue);
+    border: none;
+    height: 100vh;
+    left: auto;
+    right: 0;
+}
+
+.menu::backdrop {
+    /*background: rgba(0, 0, 0, 0.4);*/
+    backdrop-filter: grayscale(10%) blur(3px);
+}
+.menuHeader {
+    color: var(--yellow);
+    line-height: var(--line-height-headings);
+    background-color: var(--blue);
+}
