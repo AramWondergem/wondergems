@@ -5,7 +5,7 @@
 
 .footerInnerbox {
     display: flex;
-    padding: 0 var(--margin-innerbox-desktop-side);
+    padding: 0 10px;
     overflow: hidden;
     flex-direction: row;
     justify-content: center;
@@ -17,10 +17,4 @@
     margin: 0;
     font-size: var(--fontsize-400);
     line-height: 0.7;
-}
-
-@media (max-width: 768px) {
-    .footerInnerbox {
-        padding: 0 10px;
-    }
 }

@@ -14,11 +14,11 @@ export const ProjectBlock = component$<ProjectBlockProps>(() => {
             <Heading class={[styles.header]} bgColor={'rose'} size={'big'}>
                 <h2 class={[styles.headerText]}>PROJECTS</h2>
             </Heading>
-            <div class={['innerbox', styles.innerBoxPage]}>
+            <ul class={['innerbox', styles.innerBoxPage]}>
                 {projects.map((data, index) => (
                     <ProjectTile data={data} key={`projectTile${index}`} />
                 ))}
-            </div>
+            </ul>
         </section>
     );
 });

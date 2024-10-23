@@ -34,7 +34,13 @@ export const ProjectTile = component$<ProjectTileProps>((props) => {
                     {images
                         .filter((image) => image.type === ImageType.DESKTOP)
                         .map((image) => (
-                            <img width={'100%'} height={'100%'} src={image.url} alt={image.alt} />
+                            <img
+                                key={`defaultPicture${title}`}
+                                width={'100%'}
+                                height={'100%'}
+                                src={image.url}
+                                alt={image.alt}
+                            />
                         ))}
                 </picture>
                 <div class={[styles.textWrapper]}>
@@ -52,8 +58,12 @@ export const ProjectTile = component$<ProjectTileProps>((props) => {
                     </Heading>
                     <p>{technologies}</p>
                     <div class={[styles.buttonWrapper]}>
-                        {buttons.map((button) => (
-                            <Button disabled={false} onClick={$(() => openInNewTab(button.url))}>
+                        {buttons.map((button, index) => (
+                            <Button
+                                key={`${index}button${title}`}
+                                disabled={false}
+                                onClick={$(() => openInNewTab(button.url))}
+                            >
                                 {button.label}
                             </Button>
                         ))}
