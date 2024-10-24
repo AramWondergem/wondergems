@@ -8,7 +8,7 @@ export interface IntroductionProps {}
 export const Introduction = component$<IntroductionProps>(() => {
     const onClick = $(() => alert('Hallo hier ben ik'));
     return (
-        <section class={['outerbox']}>
+        <section id={'introduction'} class={['outerbox']}>
             <div class={['innerbox', styles.innerBoxPage]}>
                 <p class={[styles.textIntroduction]}>
                     Hi there 🖐,

@@ -144,6 +144,8 @@ a:not([class]) {
     --line-height-headings-small: 0.7;
 
     --size-header: 2.9rem;
+
+    --modal-animation: forwards cubic-bezier(0.6, 0.6, 0, 1);
 }
 
 /*-------------------utility classes --------------------------*/

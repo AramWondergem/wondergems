@@ -22,7 +22,13 @@
 }
 
 .headerMenuWrapper {
+    all: unset;
     flex-shrink: 0;
+    border: transparent 2px dashed;
+}
+
+.headerMenuWrapper:focus-visible {
+    border: var(--rose) 2px dashed;
 }
 
 .headerLogo {
