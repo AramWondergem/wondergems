@@ -1,0 +1,8 @@
+.innerboxAbout {
+    max-width: var(--basic-screen-width);
+    width: 100%;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}

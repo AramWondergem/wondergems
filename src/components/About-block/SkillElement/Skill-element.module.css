@@ -1,0 +1,7 @@
+.levelIndicator {
+    border: var(--blue) 2px solid;
+}
+
+.checked {
+    background: var(--yellow);
+}

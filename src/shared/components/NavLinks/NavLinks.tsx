@@ -17,7 +17,7 @@ export const NavLinks = component$<NavLinksProps>((props) => {
         <nav>
             <ul class={[styles.navLinkWrapper, `${styles[props.flexDirection]}`]}>
                 <li>
-                    <a onClick$={() => onClickNav()} href='#introduction'>
+                    <a onClick$={() => onClickNav()} href='#home'>
                         Home
                     </a>
                 </li>

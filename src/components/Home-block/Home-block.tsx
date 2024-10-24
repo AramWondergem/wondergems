@@ -1,14 +1,14 @@
 import { $, component$ } from '@builder.io/qwik';
-import styles from './Introduction.module.css';
+import styles from './Home-block.module.css';
 import { Button } from '~/shared/components/Button/Button';
 import { Span } from '~/shared/components/Span/Span';
 
 export interface IntroductionProps {}
 
-export const Introduction = component$<IntroductionProps>(() => {
+export const HomeBlock = component$<IntroductionProps>(() => {
     const onClick = $(() => alert('Hallo hier ben ik'));
     return (
-        <section id={'introduction'} class={['outerbox']}>
+        <section id={'home'} class={['outerbox']}>
             <div class={['innerbox', styles.innerBoxPage]}>
                 <p class={[styles.textIntroduction]}>
                     Hi there 🖐,
