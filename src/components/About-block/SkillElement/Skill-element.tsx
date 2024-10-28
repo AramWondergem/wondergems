@@ -18,22 +18,18 @@ export const SkillElement = component$<SkillProps>((props) => {
         }
     }
     return (
-        <li>
-            <span>{props.name}</span>
+        <li class={[styles.nameAndLevelWrapper]}>
+            <h5>{props.name}</h5>
 
-            <ul>
+            <ul class={[styles.levelWrapper]}>
                 {numberOfCheckedRounds.map((index) => (
-                    <div
+                    <li
                         key={`checked${props.name + index}`}
                         class={[styles.checked, styles.levelIndicator]}
-                    >
-                        {index}
-                    </div>
+                    ></li>
                 ))}
                 {numberOfUncheckedRounds.map((index) => (
-                    <div key={`unchecked${props.name + index}`} class={[styles.levelIndicator]}>
-                        {index}
-                    </div>
+                    <li key={`unchecked${props.name + index}`} class={[styles.levelIndicator]}></li>
                 ))}
             </ul>
         </li>

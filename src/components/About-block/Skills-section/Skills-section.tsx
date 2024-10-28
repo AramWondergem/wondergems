@@ -11,11 +11,11 @@ export interface SkillsSectionProps {
 
 export const SkillsSection = component$<SkillsSectionProps>((props) => {
     return (
-        <div class={[styles.skillsListWrapper]}>
+        <div class={[styles.skillsListWithHeader]}>
             <Heading bgColor={'rose'} size={'small'}>
-                <h4>{props.title}</h4>
+                <h4 class={[styles.headerSkillSection]}>{props.title}</h4>
             </Heading>
-            <ul>
+            <ul class={[styles.skillsWrapper]}>
                 {props.skills.map((skill, index) => (
                     <SkillElement
                         key={`${props.title + skill.name + skill.level + index}`}

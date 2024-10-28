@@ -4,6 +4,7 @@ import styles from './About-block.module.css';
 import aboutData from '~/assets/about-data.json';
 import { AboutData } from '~/components/About-block/model';
 import { SkillsSection } from '~/components/About-block/Skills-section/Skills-section';
+import { WorkExperience } from '~/components/About-block/Experience-section/Work-experience';
 
 export interface AboutBlockProps {}
 
@@ -27,6 +28,15 @@ export const AboutBlock = component$<AboutBlockProps>(() => {
                         skills={skillsSection.skills}
                     />
                 ))}
+                <Heading bgColor={'yellow'} size={'small'}>
+                    <h3 class={['hideOnMobile']}>WORK EXPERIENCE</h3>
+                    <h3 class={['hideOnDesktop']}>EXPERIENCE</h3>
+                </Heading>
+
+                <div>
+                    <WorkExperience />
+                    <WorkExperience />
+                </div>
             </div>
         </section>
     );

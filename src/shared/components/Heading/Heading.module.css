@@ -34,4 +34,5 @@
 .big {
     position: sticky;
     top: var(--size-header);
+    z-index: var(--second-layer);
 }
