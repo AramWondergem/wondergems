@@ -239,3 +239,18 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.span {
+    color: var(--yellow);
+    font-weight: var(--font-weight-600);
+    padding: 0.2em;
+    margin-right: 4px;
+    background: var(--blue);
+    border-radius: 0.2em;
+    box-shadow: 4px 4px 0px 0px var(--rose);
+    line-height: 1;
+}
+
+em {
+    font-weight: var(--font-weight-500);
+}

@@ -19,6 +19,10 @@
     font-size: var(--fontsize-600);
 }
 
+.spanText {
+    white-space: nowrap;
+}
+
 .buttonWrapper {
     flex: 0 1 477px;
     display: flex;
