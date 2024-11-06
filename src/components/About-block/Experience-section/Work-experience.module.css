@@ -1,11 +1,7 @@
-/*.experienceWrapper * {*/
-/*    background: aquamarine;*/
-/*}*/
 .experienceWrapper {
-    /*width: 100%;*/
+    max-width: 700px;
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;*/
     gap: 20px;
 }
 
@@ -40,13 +36,18 @@
     border: 4px solid var(--rose);
 }
 
-.textBlockWrapper {
-    padding-top: 8px;
+.dateWrapper {
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .date {
     font-size: var(--fontsize-500);
     font-weight: var(--font-weight-600);
+    font-family: monospace;
+    white-space: nowrap;
 }
 
 .titleAndCompanyWrapper {
@@ -56,6 +57,13 @@
 }
 
 .titleWrapper {
+    min-height: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleBox {
     background: var(--blue);
     border-radius: 0.2em;
     box-shadow: 4px 4px 0px 0px var(--rose);
@@ -67,4 +75,17 @@
     font-weight: var(--font-weight-600);
     line-height: 1;
     text-align: center;
+}
+
+.introduction {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.experienceWrapper ul {
+    margin: 1.5em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    list-style: inside;
 }
