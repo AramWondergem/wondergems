@@ -30,5 +30,43 @@
                 }
             ]
         }
+    ],
+    "experiences": [
+        {
+            "timePeriod": "06/2020 - Present",
+            "title": "Senior Software Engineer",
+            "company": "Tech Innovators Inc.",
+            "location": "San Francisco, CA",
+            "introduction": "Working as a senior software engineer focusing on frontend development.",
+            "achievements": [
+                "Led a team of 5 engineers to develop a new web application.",
+                "Improved application performance by 30%.",
+                "Implemented a new feature that increased user engagement by 20%."
+            ]
+        },
+        {
+            "timePeriod": "01/2018 - 05/2020",
+            "title": "Software Engineer",
+            "company": "Web Solutions Ltd.",
+            "location": "New York, NY",
+            "introduction": "Responsible for developing and maintaining web applications.",
+            "achievements": [
+                "Developed a complex client-side application using React.",
+                "Reduced the application's load time by 25%.",
+                "Mentored junior developers and conducted code reviews."
+            ]
+        },
+        {
+            "timePeriod": "05/2015 - 05/2017",
+            "title": "Junior Developer",
+            "company": "Innovative Apps",
+            "location": "Austin, TX",
+            "introduction": "Assisted in the development of mobile and web applications.",
+            "achievements": [
+                "Collaborated on a project that won a local startup competition.",
+                "Automated testing processes, reducing bugs by 15%.",
+                "Contributed to the development of 3 mobile apps."
+            ]
+        }
     ]
 }

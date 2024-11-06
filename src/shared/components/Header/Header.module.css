@@ -27,10 +27,6 @@
     border: transparent 2px dashed;
 }
 
-.headerMenuWrapper:focus-visible {
-    border: var(--rose) 2px dashed;
-}
-
 .headerLogo {
     color: var(--yellow);
     padding: 0;
@@ -40,6 +36,7 @@
 
 .headerMenu {
     font-size: var(--fontsize-800);
+    cursor: pointer;
 }
 
 .navLinks {

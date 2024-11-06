@@ -1,6 +1,6 @@
 import { $, component$ } from '@builder.io/qwik';
 import styles from './Home-block.module.css';
-import { Button } from '~/shared/components/Button/Button';
+import { Button } from '~/shared/components/ButtonAndExternalLink/Button';
 
 export interface IntroductionProps {}
 

@@ -1,14 +1,19 @@
 import { component$ } from '@builder.io/qwik';
 import styles from './Work-experience.module.css';
 import { Heading } from '~/shared/components/Heading/Heading';
+import { Experience } from '~/components/About-block/model';
 
-export interface ExperienceSectionProps {}
+export interface ExperienceSectionProps {
+    experience: Experience;
+}
 
-export const WorkExperience = component$<ExperienceSectionProps>(() => {
+export const WorkExperience = component$<ExperienceSectionProps>((props) => {
+    const { timePeriod, title, company, location, introduction, achievements }: Experience =
+        props.experience;
     return (
         <div class={[styles.experienceWrapper]}>
             <div class={[styles.dateWrapper, 'hideOnMobile']}>
-                <p class={[styles.date]}>09/2023 - Present</p>
+                <p class={[styles.date]}>{timePeriod}</p>
             </div>
             <div class={[styles.lineWrapper]}>
                 <div class={[styles.circle]}></div>
@@ -16,44 +21,30 @@ export const WorkExperience = component$<ExperienceSectionProps>(() => {
             </div>
             <div class={[styles.textBlockWrapper]}>
                 <div class={[styles.dateWrapper, 'hideOnDesktop']}>
-                    <p class={[styles.date]}>09/2023 - Present</p>
+                    <p class={[styles.date]}>{timePeriod}</p>
                 </div>
                 <div class={[styles.titleAndCompanyWrapper]}>
                     <div class={[styles.titleWrapper]}>
                         <div class={[styles.titleBox]}>
-                            <h4 class={[styles.title]}>Full Stack Web Developer</h4>
+                            <h4 class={[styles.title]}>{title}</h4>
                         </div>
                     </div>
                     <p>
-                        <em>Trailblazers,</em> Amsterdam
+                        <em>{company},</em> {location}
                     </p>
                 </div>
-                <p class={[styles.introduction]}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad
-                    architecto aut commodi cupiditate dolor dolore dolorum eligendi ex id impedit
-                    labore libero natus nemo, pariatur possimus totam voluptate voluptatibus.
-                </p>
+                <p class={[styles.introduction]}>{introduction}</p>
                 <div>
                     <Heading bgColor={'rose'} size={'small'}>
                         <h5>ACHIEVEMENTS</h5>
                     </Heading>
                     <div>
                         <ul>
-                            <li>
-                                Developed a web application for managing the maintenance of
-                                automated external defibrillators (AEDs) increasing the rate of AEDs
-                                checked monthly by 55% and reducing AED downtime by 45%.
-                            </li>
-                            <li>
-                                Redesigned user interfaces for both desktop and mobile in Figma, and
-                                developed them using Angular, resulting in high user adoption and
-                                strong initial user satisfaction.
-                            </li>
-                            <li>
-                                Implemented new features in the Angular application and the RESTful
-                                API built with Spring Boot, which led to partnering with a major AED
-                                retailer for the development of the application.
-                            </li>
+                            {achievements.map((achievement, index) => (
+                                <li key={`achievement${index}from${timePeriod + company + title}`}>
+                                    {achievement}
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 </div>

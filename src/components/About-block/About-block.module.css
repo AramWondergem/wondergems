@@ -6,3 +6,10 @@
     display: flex;
     flex-direction: column;
 }
+
+.workExperienceWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}

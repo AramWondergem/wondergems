@@ -195,10 +195,6 @@ label {
     color: var(--blue);
 }
 
-button {
-    font-size: var(--fontsize-500);
-}
-
 h1,
 h2,
 h3,
@@ -254,4 +250,8 @@ body {
 
 em {
     font-weight: var(--font-weight-500);
+}
+
+*:focus-visible {
+    outline: springgreen 3px solid;
 }

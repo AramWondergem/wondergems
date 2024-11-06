@@ -36,6 +36,10 @@
     border: 4px solid var(--rose);
 }
 
+.textBlockWrapper {
+    flex-grow: 1;
+}
+
 .dateWrapper {
     height: 46px;
     display: flex;

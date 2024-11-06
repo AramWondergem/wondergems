@@ -1,8 +1,9 @@
 import { $, component$ } from '@builder.io/qwik';
-import { Button } from '~/shared/components/Button/Button';
+import { Button } from '~/shared/components/ButtonAndExternalLink/Button';
 import { Heading } from '~/shared/components/Heading/Heading';
 import styles from './Project-tile.module.css';
-import { ImageType, ProjectData } from '~/components/Project-block/model';
+import type { ProjectData } from '~/components/Project-block/model';
+import { ImageType } from '~/components/Project-block/model';
 
 export interface ProjectTileProps {
     data: ProjectData;
