@@ -1,21 +1,21 @@
 import { $, component$ } from '@builder.io/qwik';
-import styles from './Introduction.module.css';
-import { Button } from '~/shared/components/Button/Button';
-import { Span } from '~/shared/components/Span/Span';
+import styles from './Home-block.module.css';
+import { Button } from '~/shared/components/ButtonAndExternalLink/Button';
 
 export interface IntroductionProps {}
 
-export const Introduction = component$<IntroductionProps>(() => {
+export const HomeBlock = component$<IntroductionProps>(() => {
     const onClick = $(() => alert('Hallo hier ben ik'));
     return (
-        <section id={'introduction'} class={['outerbox']}>
+        <section id={'home'} class={['outerbox']}>
             <div class={['innerbox', styles.innerBoxPage]}>
                 <p class={[styles.textIntroduction]}>
                     Hi there 🖐,
                     <br />
-                    My name is <Span>ARAM WONDERGEM</Span>. I am a Full Stack Web Developer located
-                    in <Span>New York City</Span> who thrives on engaging in projects that solve
-                    real-world issues.
+                    My name is <span class={[styles.spanText, 'span']}>ARAM WONDERGEM</span>. I am a
+                    Full Stack Web Developer located in{' '}
+                    <span class={[styles.spanText, 'span']}>New York City</span> who thrives on
+                    engaging in projects that solve real-world issues.
                 </p>
 
                 <div class={[styles.buttonWrapper]}>

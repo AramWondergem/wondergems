@@ -1,0 +1,98 @@
+{
+    "introduction": "Goal-oriented software developer with proven experience designing and building user-friendly web applications. With expertise in JavaScript, TypeScript, and frameworks like Angular and React, I prioritize user experience throughout the development process, creating intuitive and efficient interfaces. Additionally, my skills in Java and Spring Boot allow me to build REST APIs and seamlessly connect them with front-end applications for optimal performance.",
+    "skillsSections": [
+        {
+            "title": "LANGUAGES & FRAMEWORKS",
+            "skills": [
+                {
+                    "name": "Java",
+                    "level": 3
+                },
+                {
+                    "name": "Spring Boot",
+                    "level": 2
+                },
+                {
+                    "name": "Python",
+                    "level": 5
+                },
+                {
+                    "name": "HTML/CSS",
+                    "level": 5
+                },
+                {
+                    "name": "JavaScript",
+                    "level": 3
+                },
+                {
+                    "name": "TypeScript",
+                    "level": 3
+                }
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "entity": {
+                "title": "Senior Software Engineer",
+                "company": "Tech Innovators Inc.",
+                "location": "San Francisco, CA",
+                "introduction": "Working as a senior software engineer focusing on frontend development.",
+                "achievements": [
+                    "Led a team of 5 engineers to develop a new web application.",
+                    "Improved application performance by 30%.",
+                    "Implemented a new feature that increased user engagement by 20%."
+                ]
+            },
+            "timePeriod": "06/2020 - Present"
+        },
+        {
+            "entity": {
+                "title": "Software Engineer",
+                "company": "Web Solutions Ltd.",
+                "location": "New York, NY",
+                "introduction": "Responsible for developing and maintaining web applications.",
+                "achievements": [
+                    "Developed a complex client-side application using React.",
+                    "Reduced the application's load time by 25%.",
+                    "Mentored junior developers and conducted code reviews."
+                ]
+            },
+            "timePeriod": "01/2018 - 05/2020"
+        },
+        {
+            "entity": {
+                "title": "Junior Developer",
+                "company": "Innovative Apps",
+                "location": "Austin, TX",
+                "introduction": "Assisted in the development of mobile and web applications.",
+                "achievements": [
+                    "Collaborated on a project that won a local startup competition.",
+                    "Automated testing processes, reducing bugs by 15%.",
+                    "Contributed to the development of 3 mobile apps."
+                ]
+            },
+            "timePeriod": "05/2015 - 05/2017"
+        }
+    ],
+    "degrees": [
+        {
+            "entity": {
+                "university": "Utrecht University",
+                "degreeType": "Master's degree",
+                "name": "Science & Business Management",
+                "description": ["Management Minor (grade: 8.5 out of 10)"]
+            },
+            "timePeriod": "09/2016 - 01/2020"
+        },
+        {
+            "entity": {
+                "university": "Utrecht University",
+                "degreeType": "Bachelor's degree",
+                "name": "Biomedical Sciences",
+                "description": []
+            },
+            "timePeriod": "09/2011 - 07/2014"
+        }
+    ]
+}

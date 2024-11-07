@@ -11,8 +11,8 @@ export const ProjectBlock = component$<ProjectBlockProps>(() => {
     const projects: ProjectData[] = projectData.projects;
     return (
         <section id={'projects'} class={['outerbox']}>
-            <Heading class={[styles.header]} bgColor={'rose'} size={'big'}>
-                <h2 class={[styles.headerText]}>PROJECTS</h2>
+            <Heading bgColor={'rose'} size={'big'}>
+                <h2>PROJECTS</h2>
             </Heading>
             <ul class={['innerbox', styles.innerBoxPage]}>
                 {projects.map((data, index) => (

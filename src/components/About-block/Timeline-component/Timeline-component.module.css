@@ -1,0 +1,54 @@
+.timelineElementWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.lineWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    box-sizing: content-box;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    background: var(--yellow);
+    border: 8px solid var(--rose);
+    box-shadow: 0 0 0 8px var(--white) inset;
+    position: relative;
+    z-index: var(--third-layer);
+}
+
+.circle::before {
+    content: '';
+    position: absolute;
+    border: 4px solid var(--rose);
+    top: 33px;
+    left: calc(50% - 4px);
+}
+
+.line {
+    flex-grow: 1;
+    border: 4px solid var(--rose);
+}
+
+.textBlockWrapper {
+    flex-grow: 1;
+}
+
+.dateWrapper {
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.date {
+    font-size: var(--fontsize-500);
+    font-weight: var(--font-weight-600);
+    font-family: monospace;
+    white-space: nowrap;
+}

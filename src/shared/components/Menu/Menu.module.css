@@ -80,11 +80,8 @@
     border: transparent 2px dashed;
 }
 
-.closeButtonWrapper:focus-visible {
-    border: var(--rose) 2px dashed;
-}
-
 .closeButton {
     font-size: var(--fontsize-800);
     color: var(--white);
+    cursor: pointer;
 }

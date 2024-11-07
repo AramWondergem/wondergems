@@ -1,0 +1,32 @@
+.nameAndLevelWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: var(--font-weight-600);
+}
+
+.levelWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    gap: 2px;
+}
+
+.levelIndicator {
+    border: var(--blue) 3px solid;
+    border-radius: 50%;
+    min-height: var(--fontsize-500);
+    min-width: var(--fontsize-500);
+}
+
+.checked {
+    background: var(--yellow);
+}
+
+@media (max-width: 386px) {
+    .nameAndLevelWrapper h5 {
+        font-size: var(--fontsize-400);
+    }
+}

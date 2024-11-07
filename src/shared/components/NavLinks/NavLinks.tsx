@@ -7,6 +7,7 @@ export interface NavLinksProps {
 }
 
 export const NavLinks = component$<NavLinksProps>((props) => {
+    // closes the menu when the menu bar is open. this is only when screen is smaller than 780 px
     const onClickNav = $(() => {
         if (props.onClick) {
             props.onClick();
@@ -17,7 +18,7 @@ export const NavLinks = component$<NavLinksProps>((props) => {
         <nav>
             <ul class={[styles.navLinkWrapper, `${styles[props.flexDirection]}`]}>
                 <li>
-                    <a onClick$={() => onClickNav()} href='#introduction'>
+                    <a onClick$={() => onClickNav()} href='#home'>
                         Home
                     </a>
                 </li>
@@ -27,7 +28,9 @@ export const NavLinks = component$<NavLinksProps>((props) => {
                     </a>
                 </li>
                 <li>
-                    <a onClick$={() => onClickNav()}>About</a>
+                    <a onClick$={() => onClickNav()} href={'#about'}>
+                        About
+                    </a>
                 </li>
                 <li>
                     <a onClick$={() => onClickNav()}>Contact</a>
