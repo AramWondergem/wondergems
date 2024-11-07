@@ -6,7 +6,7 @@ import { AboutData, Experience, TimeLineElement } from '~/components/About-block
 import { SkillsSection } from '~/components/About-block/Skills-section/Skills-section';
 import { WorkExperience } from '~/components/About-block/Work-experience/Work-experience';
 import { ExternalLink } from '~/shared/components/ButtonAndExternalLink/ExternalLink';
-import { TimelineComponent } from '~/components/About-block/TimelineComponent/Timeline-component';
+import { TimelineComponent } from '~/components/About-block/Timeline-component/Timeline-component';
 import { DegreeElement } from '~/components/About-block/Degree-element/Degree-element';
 
 export interface AboutBlockProps {}
