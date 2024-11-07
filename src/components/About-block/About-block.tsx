@@ -15,12 +15,12 @@ export const AboutBlock = component$<AboutBlockProps>(() => {
     const data: AboutData = aboutData;
 
     return (
-        <section id={'about'} class={['outerbox']}>
+        <section id={'about'} class={['outerbox', 'section']}>
             <Heading bgColor={'rose'} size={'big'}>
                 <h2>ABOUT</h2>
             </Heading>
             <div class={['innerbox', styles.innerboxAbout]}>
-                <p>{data.introduction}</p>
+                <p class={[styles.introduction]}>{data.introduction}</p>
 
                 <Heading bgColor={'yellow'} size={'small'}>
                     <h3>SKILLS</h3>

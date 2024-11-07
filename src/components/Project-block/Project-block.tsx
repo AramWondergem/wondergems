@@ -10,7 +10,7 @@ export interface ProjectBlockProps {}
 export const ProjectBlock = component$<ProjectBlockProps>(() => {
     const projects: ProjectData[] = projectData.projects;
     return (
-        <section id={'projects'} class={['outerbox']}>
+        <section id={'projects'} class={['outerbox', 'section']}>
             <Heading bgColor={'rose'} size={'big'}>
                 <h2>PROJECTS</h2>
             </Heading>

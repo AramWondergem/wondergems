@@ -135,15 +135,17 @@ a:not([class]) {
     --background-body: var(--white);
 
     --basic-screen-width: 1300px;
-    --margin-innerbox-desktop-top: 70px;
+    --margin-innerbox-desktop-top: 15vh;
     --margin-innerbox-desktop-side: 40px;
-    --margin-innerbox-mobile-top: 70px;
+    --margin-innerbox-mobile-top: 20vh;
     --margin-innerbox-mobile-side: 15px;
 
     --line-height-headings: 0.66;
     --line-height-headings-small: 0.7;
 
     --size-header: 2.9rem;
+
+    --size-footer: 0.7rem;
 
     --modal-animation: forwards cubic-bezier(0.6, 0.6, 0, 1);
 
@@ -156,7 +158,6 @@ a:not([class]) {
 
 .outerbox {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -180,6 +181,14 @@ a:not([class]) {
     .hideOnDesktop {
         display: none;
     }
+}
+
+*:focus-visible {
+    outline: springgreen 3px solid;
+}
+
+.section {
+    margin-top: var(--size-header);
 }
 
 /*------------------Fonts-----------------*/
@@ -250,8 +259,4 @@ body {
 
 em {
     font-weight: var(--font-weight-500);
-}
-
-*:focus-visible {
-    outline: springgreen 3px solid;
 }

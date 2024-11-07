@@ -26,17 +26,14 @@
 .buttonWrapper {
     flex: 0 1 477px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    align-content: center;
     font-size: var(--fontsize-600);
 }
 
 .spanButton {
-    flex: 0 1 477px;
     text-align: center;
 }
 
