@@ -9,7 +9,6 @@ export interface SkillsSection {
 }
 
 export interface Experience {
-    timePeriod: string;
     title: string;
     company: string;
     location: string;
@@ -17,8 +16,21 @@ export interface Experience {
     achievements: string[];
 }
 
+export interface Degree {
+    university: string;
+    degreeType: string;
+    name: string;
+    description: string[];
+}
+
+export interface TimeLineElement<T> {
+    entity: T;
+    timePeriod: string;
+}
+
 export interface AboutData {
     introduction: string;
     skillsSections: SkillsSection[];
-    experiences: Experience[];
+    experiences: TimeLineElement<Experience>[];
+    degrees: TimeLineElement<Degree>[];
 }

@@ -1,0 +1,39 @@
+.titleAndUnderlineWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+.titleWrapper {
+    min-height: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleBox {
+    background: var(--blue);
+    border-radius: 0.2em;
+    box-shadow: 4px 4px 0px 0px var(--rose);
+}
+
+.title {
+    padding: 0.2em;
+    color: var(--yellow);
+    font-weight: var(--font-weight-600);
+    line-height: 1;
+    text-align: center;
+}
+
+.introduction {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.ulExperience {
+    margin: 1.5em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    list-style: inside;
+}
