@@ -122,9 +122,9 @@ a:not([class]) {
 
     --padding-extra-smal: 0.2em;
     --padding-small: 0.5em;
-    --padding-medium: 1em;
-    --padding-large: 1.5em;
-    --padding-XXXL: 5em;
+    --padding-medium: 2em;
+    --padding-large: 4em;
+    --padding-XL: 5em;
 
     --black: hsla(240, 67%, 2%, 1);
     --blue: hsla(217, 87%, 15%, 1);
@@ -135,9 +135,9 @@ a:not([class]) {
     --background-body: var(--white);
 
     --basic-screen-width: 1300px;
-    --margin-innerbox-desktop-top: 70px;
+    --margin-innerbox-desktop-top: var(--padding-XL);
     --margin-innerbox-desktop-side: 40px;
-    --margin-innerbox-mobile-top: 70px;
+    --margin-innerbox-mobile-top: var(--padding-large);
     --margin-innerbox-mobile-side: 15px;
 
     --line-height-headings: 0.66;
@@ -145,18 +145,20 @@ a:not([class]) {
 
     --size-header: 2.9rem;
 
+    --size-footer: 0.7rem;
+
     --modal-animation: forwards cubic-bezier(0.6, 0.6, 0, 1);
 
     --first-layer: 100;
     --second-layer: 90;
     --third-layer: 80;
+    --gap: var(--padding-large);
 }
 
 /*-------------------utility classes --------------------------*/
 
 .outerbox {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -182,6 +184,14 @@ a:not([class]) {
     }
 }
 
+*:focus-visible {
+    outline: springgreen 3px solid;
+}
+
+.section {
+    margin-top: var(--size-header);
+}
+
 /*------------------Fonts-----------------*/
 
 body,
@@ -193,6 +203,10 @@ label {
     font-weight: var(--font-weight-400);
     font-size: var(--fontsize-400);
     color: var(--blue);
+}
+
+p {
+    text-align: justify;
 }
 
 h1,
@@ -250,8 +264,4 @@ body {
 
 em {
     font-weight: var(--font-weight-500);
-}
-
-*:focus-visible {
-    outline: springgreen 3px solid;
 }

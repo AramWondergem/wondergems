@@ -3,6 +3,7 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 import { HomeBlock } from '~/components/Home-block/Home-block';
 import { ProjectBlock } from '~/components/Project-block/Project-block';
 import { AboutBlock } from '~/components/About-block/About-block';
+import { ContactBlock } from '~/components/Contact-block/Contact-block';
 
 export default component$(() => {
     return (
@@ -10,6 +11,7 @@ export default component$(() => {
             <HomeBlock />
             <ProjectBlock />
             <AboutBlock />
+            <ContactBlock />
         </div>
     );
 });

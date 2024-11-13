@@ -33,7 +33,9 @@ export const NavLinks = component$<NavLinksProps>((props) => {
                     </a>
                 </li>
                 <li>
-                    <a onClick$={() => onClickNav()}>Contact</a>
+                    <a onClick$={() => onClickNav()} href={'#contact'}>
+                        Contact
+                    </a>
                 </li>
             </ul>
         </nav>

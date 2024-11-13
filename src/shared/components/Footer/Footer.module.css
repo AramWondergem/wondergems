@@ -1,6 +1,7 @@
 .footerOuterbox {
-    flex-direction: row !important;
+    flex-direction: row;
     background: var(--blue);
+    justify-content: center;
 }
 
 .footerInnerbox {

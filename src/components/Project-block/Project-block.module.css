@@ -2,7 +2,7 @@
     max-width: var(--basic-screen-width);
     width: 100%;
     align-items: center;
-    gap: 100px;
+    gap: var(--gap);
     display: flex;
     justify-content: center;
     flex-direction: column;

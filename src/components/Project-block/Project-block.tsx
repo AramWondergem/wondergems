@@ -3,14 +3,14 @@ import styles from './Project-block.module.css';
 import { Heading } from '~/shared/components/Heading/Heading';
 import { ProjectTile } from '~/components/Project-block/Project-tile/Project-tile';
 import projectData from '~/assets/project-data.json';
-import { ProjectData } from '~/components/Project-block/model';
+import type { ProjectData } from '~/components/Project-block/model';
 
 export interface ProjectBlockProps {}
 
 export const ProjectBlock = component$<ProjectBlockProps>(() => {
     const projects: ProjectData[] = projectData.projects;
     return (
-        <section id={'projects'} class={['outerbox']}>
+        <section id={'projects'} class={['outerbox', 'section']}>
             <Heading bgColor={'rose'} size={'big'}>
                 <h2>PROJECTS</h2>
             </Heading>

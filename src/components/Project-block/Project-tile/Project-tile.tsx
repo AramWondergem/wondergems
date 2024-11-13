@@ -1,9 +1,9 @@
-import { $, component$ } from '@builder.io/qwik';
-import { Button } from '~/shared/components/ButtonAndExternalLink/Button';
+import { component$ } from '@builder.io/qwik';
 import { Heading } from '~/shared/components/Heading/Heading';
 import styles from './Project-tile.module.css';
 import type { ProjectData } from '~/components/Project-block/model';
 import { ImageType } from '~/components/Project-block/model';
+import { LinkButton } from '~/shared/components/ButtonAndExternalLink/LinkButton';
 
 export interface ProjectTileProps {
     data: ProjectData;
@@ -11,10 +11,6 @@ export interface ProjectTileProps {
 
 export const ProjectTile = component$<ProjectTileProps>((props) => {
     const { title, images, description, tasks, technologies, buttons }: ProjectData = props.data;
-
-    const openInNewTab = $((url: string) => {
-        window.open(url, '_blank');
-    });
 
     return (
         <li class={[styles.projectWrapper]}>
@@ -60,13 +56,13 @@ export const ProjectTile = component$<ProjectTileProps>((props) => {
                     <p>{technologies}</p>
                     <div class={[styles.buttonWrapper]}>
                         {buttons.map((button, index) => (
-                            <Button
+                            <LinkButton
                                 key={`${index}button${title}`}
-                                disabled={false}
-                                onClick={$(() => openInNewTab(button.url))}
+                                url={button.url}
+                                target={'_blank'}
                             >
                                 {button.label}
-                            </Button>
+                            </LinkButton>
                         ))}
                     </div>
                 </div>
