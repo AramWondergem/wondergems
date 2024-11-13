@@ -3,7 +3,7 @@ import styles from './Project-block.module.css';
 import { Heading } from '~/shared/components/Heading/Heading';
 import { ProjectTile } from '~/components/Project-block/Project-tile/Project-tile';
 import projectData from '~/assets/project-data.json';
-import { ProjectData } from '~/components/Project-block/model';
+import type { ProjectData } from '~/components/Project-block/model';
 
 export interface ProjectBlockProps {}
 

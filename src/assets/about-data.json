@@ -29,6 +29,35 @@
                     "level": 3
                 }
             ]
+        },
+        {
+            "title": "LANGUAGES & FRAMEWORKS",
+            "skills": [
+                {
+                    "name": "Java",
+                    "level": 3
+                },
+                {
+                    "name": "Spring Boot",
+                    "level": 2
+                },
+                {
+                    "name": "Python",
+                    "level": 5
+                },
+                {
+                    "name": "HTML/CSS",
+                    "level": 5
+                },
+                {
+                    "name": "JavaScript",
+                    "level": 3
+                },
+                {
+                    "name": "TypeScript",
+                    "level": 3
+                }
+            ]
         }
     ],
     "experiences": [

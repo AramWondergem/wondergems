@@ -1,7 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import { Heading } from '~/shared/components/Heading/Heading';
 import styles from './Contact-block.module.css';
-import { ExternalLink } from '~/shared/components/ButtonAndExternalLink/ExternalLink';
+import { LinkButton } from '~/shared/components/ButtonAndExternalLink/LinkButton';
 
 export interface ContactBlockProps {}
 
@@ -13,15 +13,19 @@ export const ContactBlock = component$<ContactBlockProps>(() => {
             </Heading>
             <div class={['innerbox', styles.innerboxContact]}>
                 <div class={styles.buttonWrapper}>
-                    <ExternalLink url={'https://www.linkedin.com/in/aramwondergem/'}>
+                    <LinkButton
+                        url={'https://www.linkedin.com/in/aramwondergem/'}
+                        target={'_blank'}
+                    >
                         Connect with me on Linkedin
-                    </ExternalLink>
+                    </LinkButton>
                     <span class={[styles.spanButton]}>and</span>
-                    <ExternalLink
+                    <LinkButton
                         url={'https://meet.risecalendar.com/aramwondergem/coffee-chat-website-aram'}
+                        target={'_blank'}
                     >
                         Schedule a coffee chat with me
-                    </ExternalLink>
+                    </LinkButton>
                 </div>
             </div>
         </section>

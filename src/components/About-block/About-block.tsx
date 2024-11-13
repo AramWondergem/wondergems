@@ -5,7 +5,7 @@ import aboutData from '~/assets/about-data.json';
 import { AboutData, Experience, TimeLineElement } from '~/components/About-block/model';
 import { SkillsSection } from '~/components/About-block/Skills-section/Skills-section';
 import { WorkExperience } from '~/components/About-block/Work-experience/Work-experience';
-import { ExternalLink } from '~/shared/components/ButtonAndExternalLink/ExternalLink';
+import { LinkButton } from '~/shared/components/ButtonAndExternalLink/LinkButton';
 import { TimelineComponent } from '~/components/About-block/Timeline-component/Timeline-component';
 import { DegreeElement } from '~/components/About-block/Degree-element/Degree-element';
 
@@ -54,9 +54,12 @@ export const AboutBlock = component$<AboutBlockProps>(() => {
                         )}
                     </div>
 
-                    <ExternalLink url={'https://www.linkedin.com/in/aramwondergem/'}>
+                    <LinkButton
+                        url={'https://www.linkedin.com/in/aramwondergem/'}
+                        target={'_blank'}
+                    >
                         See more work experience
-                    </ExternalLink>
+                    </LinkButton>
                 </div>
 
                 <Heading bgColor={'yellow'} size={'small'}>

@@ -1,11 +1,10 @@
-import { $, component$ } from '@builder.io/qwik';
+import { component$ } from '@builder.io/qwik';
 import styles from './Home-block.module.css';
-import { Button } from '~/shared/components/ButtonAndExternalLink/Button';
+import { LinkButton } from '~/shared/components/ButtonAndExternalLink/LinkButton';
 
 export interface IntroductionProps {}
 
 export const HomeBlock = component$<IntroductionProps>(() => {
-    const onClick = $(() => alert('Hallo hier ben ik'));
     return (
         <section id={'home'} class={['outerbox']}>
             <div class={['innerbox', styles.innerBoxPage]}>
@@ -19,9 +18,13 @@ export const HomeBlock = component$<IntroductionProps>(() => {
                 </p>
 
                 <div class={[styles.buttonWrapper]}>
-                    <Button onClick={onClick}>See my projects</Button>
+                    <LinkButton url={'#projects'} target={'_self'}>
+                        See my projects
+                    </LinkButton>
                     <span class={[styles.spanButton]}>or</span>
-                    <Button onClick={onClick}>Learn more about me</Button>
+                    <LinkButton url={'#about'} target={'_self'}>
+                        Learn more about me
+                    </LinkButton>
                 </div>
             </div>
         </section>
