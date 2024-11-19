@@ -17,7 +17,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-    title: 'Welcome to Qwik',
+    title: 'Wondergems | portfolio ',
     meta: [
         {
             name: 'description',

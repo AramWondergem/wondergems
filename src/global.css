@@ -138,7 +138,7 @@ a:not([class]) {
     --margin-innerbox-desktop-top: var(--padding-XL);
     --margin-innerbox-desktop-side: 40px;
     --margin-innerbox-mobile-top: var(--padding-large);
-    --margin-innerbox-mobile-side: 15px;
+    --margin-innerbox-mobile-side: 25px;
 
     --line-height-headings: 0.66;
     --line-height-headings-small: 0.7;
@@ -205,7 +205,8 @@ label {
     color: var(--blue);
 }
 
-p {
+p,
+li {
     text-align: justify;
 }
 
