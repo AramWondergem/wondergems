@@ -53,6 +53,7 @@
 @media (max-width: 425px) {
     .projectHeader {
         padding: 10px 20px;
+        font-size: var(--fontsize-700);
     }
     .textWrapper {
         padding: 40px 20px;

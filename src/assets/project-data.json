@@ -4,71 +4,91 @@
             "title": "AED CHECKER",
             "images": [
                 {
-                    "type": "MOBILE",
-                    "url": "src/assets/surfer-240-200.jpg",
-                    "alt": "Mobile version of AED Checker image"
+                    "type": "DESKTOP",
+                    "url": "src/assets/AED-Project-in-frame.webp",
+                    "alt": "Picture of the AED Checker app"
                 },
                 {
-                    "type": "DESKTOP",
-                    "url": "src/assets/image1.png",
-                    "alt": "Desktop version of AED Checker image"
+                    "type": "MOBILE",
+                    "url": "src/assets/AED-Project-in-frame-mobile.webp",
+                    "alt": "Picture of the AED Checker app"
                 }
             ],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eaque eos fuga ipsa nostrum placeat quas quisquam reprehenderit temporibus veritatis! Accusamus ad aperiam corporis dolorem expedita nam nostrum nulla sunt!",
+            "description": "The AED Checker application, developed by TrailBlazers, streamlines the management and readiness of Automated External Defibrillators (AEDs) across various locations. It automatically notifies AED inspectors when it's time for maintenance checks, allowing them to report each device’s status on-site through a mobile interface. Additionally, technicians and administrators can easily track, update, and manage AED information and maintenance actions via the web application, ensuring that AEDs are always prepared for emergency use.",
             "tasks": [
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem fugit nam optio reiciendis? Animi earum fugiat nobis tempora vel?",
-                "Autem cumque deserunt harum illo, laboriosam magni modi, neque obcaecati perferendis quasi recusandae sequi vero voluptatum. Delectus dicta odit quod?",
-                "Accusantium ad adipisci alias at aut blanditiis dignissimos esse explicabo, fugit ipsum molestiae molestias pariatur provident quas sint vel velit."
+                "Redesigned user interfaces for both desktop and mobile in Figma, and developed them using Angular, resulting in high user adoption and strong initial user satisfaction.",
+                "Implemented new features in the Angular application and the RESTful API built with Spring Boot, which led to partnering with a major AED retailer for the development of the application.",
+                "Restructured and optimized the frontend codebase, enhancing developer experience and significantly increasing development efficiency."
             ],
-            "technologies": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias atque blanditiis culpa et mollitia nostrum tenetur vero! Adipisci dolore ex fugit minima reprehenderit saepe, veritatis vitae? Facere, rem, voluptatum!",
+            "technologies": "TypeScript, Angular, Java, Spring Boot and Figma",
             "buttons": [
                 {
                     "label": "Website",
-                    "url": "https://example.com/aed-checker-website"
-                },
-                {
-                    "label": "Code base",
-                    "url": "https://example.com/aed-checker-codebase"
+                    "url": "https://www.trailblazers.nl/artikelen/de-aed-checker-applicatie/"
                 }
             ]
         },
         {
-            "title": "PROJECT OPTIMIZER",
+            "title": "WaterWoorden App",
             "images": [
                 {
-                    "type": "MOBILE",
-                    "url": "https://example.com/assets/image2-mobile.png",
-                    "alt": "Mobile version of Project Optimizer image"
+                    "type": "DESKTOP",
+                    "url": "src/assets/WaterWoorden-in-frame.webp",
+                    "alt": "Picture of the WaterWoorden app"
                 },
                 {
-                    "type": "DESKTOP",
-                    "url": "https://example.com/assets/image2-desktop.png",
-                    "alt": "Desktop version of Project Optimizer image"
+                    "type": "MOBILE",
+                    "url": "src/assets/WaterWoorden-in-frame-mobile.webp",
+                    "alt": "Picture of the WaterWoorden app"
                 }
             ],
-            "description": "This project aims to optimize and streamline project workflows. Includes features such as task management, resource allocation, and progress tracking.",
+            "description": "I developed an application for artist Everdien Breken, centered around her artwork \"Een Waal van Woorden,\" which is a stunning installation that transforms Dutch words connected to water into a virtual river flowing across the screen. The app is designed for mobile use, enhancing accessibility and user experience. It simplifies the process of looking up definitions of the words featured in the artwork.",
             "tasks": [
-                "Conducted a thorough requirement analysis to understand client needs.",
-                "Designed and implemented a user-friendly interface with React and TypeScript.",
-                "Integrated various APIs for seamless data flow and management."
+                "Designed the user interfaces for the application in Figma, incorporating client feedback to tailor the experience to her needs.",
+                "Developed the application using TypeScript and Angular, translating the design into a fully functional product.",
+                "Configured the application to align with the client’s production environment requirements."
             ],
-            "technologies": "React, TypeScript, Node.js, GraphQL, PostgreSQL",
+            "technologies": "TypeScript, Angular and Figma",
+            "buttons": [
+                {
+                    "label": "App",
+                    "url": "https://everdienbreken.org/Waterwoorden/"
+                },
+                {
+                    "label": "Code base",
+                    "url": "https://github.com/AramWondergem/waterwoorden"
+                }
+            ]
+        },
+        {
+            "title": "Wondergems",
+            "images": [
+                {
+                    "type": "DESKTOP",
+                    "url": "src/assets/wondergems-in-frame.webp",
+                    "alt": "Picture of the wondergems.dev website"
+                },
+                {
+                    "type": "MOBILE",
+                    "url": "src/assets/wondergems-in-frame-mobile.webp",
+                    "alt": "Picture of the wondergems.dev website"
+                }
+            ],
+            "description": "For my personal portfolio project, I used Qwik, a new JavaScript framework launched in 2023 that prioritizes speed and scalability for complex web applications. Unlike traditional frameworks, Qwik avoids hydration by loading scripts in smaller chunks, executing them only when necessary, which enables faster page loads and a smooth user experience. In building the site, I also experimented with sustainable web design practices from Sustainable Web Design in 20 Lessons by Michael Andersen. These principles guided me in implementing efficient, eco-friendly design choices throughout the site.",
+            "tasks": [
+                "Created responsive application pages in Figma, optimized for both mobile and desktop experiences.",
+                "Built the application with TypeScript and Qwik, turning the design into a fully functional and adaptive product.",
+                "Managed deployment and maintenance, ensuring reliable performance in the production environment. "
+            ],
+            "technologies": "TypeScript, Qwik and Figma",
             "buttons": [
                 {
                     "label": "Website",
-                    "url": "https://example.com/project-optimizer-website"
+                    "url": "https://wondergems.dev"
                 },
                 {
                     "label": "Code base",
-                    "url": "https://example.com/project-optimizer-codebase"
-                },
-                {
-                    "label": "Code base",
-                    "url": "https://example.com/project-optimizer-codebase"
-                },
-                {
-                    "label": "Code base",
-                    "url": "https://example.com/project-optimizer-codebase"
+                    "url": "https://github.com/AramWondergem/wondergems/tree/main"
                 }
             ]
         }

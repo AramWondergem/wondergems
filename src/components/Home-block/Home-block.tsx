@@ -11,10 +11,12 @@ export const HomeBlock = component$<IntroductionProps>(() => {
                 <p class={[styles.textIntroduction]}>
                     Hi there 🖐,
                     <br />
-                    My name is <span class={[styles.spanText, 'span']}>ARAM WONDERGEM</span>. I am a
-                    Full Stack Web Developer located in{' '}
-                    <span class={[styles.spanText, 'span']}>New York City</span> who thrives on
-                    engaging in projects that solve real-world issues.
+                    Nice to have you on my website. My name is{' '}
+                    <span class={[styles.spanText, 'span']}>ARAM WONDERGEM</span>, a Full Stack Web
+                    Developer located in{' '}
+                    <span class={[styles.spanText, 'span']}>New York City</span>. I thrive on
+                    tackling projects that address{' '}
+                    <span class={[styles.spanText, 'span']}>real-world</span> issues.
                 </p>
 
                 <div class={[styles.buttonWrapper]}>

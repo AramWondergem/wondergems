@@ -5,57 +5,100 @@
             "title": "LANGUAGES & FRAMEWORKS",
             "skills": [
                 {
+                    "name": "TypeScript",
+                    "level": 5
+                },
+                {
+                    "name": "Angular",
+                    "level": 5
+                },
+                {
+                    "name": "React",
+                    "level": 4
+                },
+                {
+                    "name": "Qwik",
+                    "level": 4
+                },
+                {
                     "name": "Java",
-                    "level": 3
+                    "level": 5
                 },
                 {
                     "name": "Spring Boot",
-                    "level": 2
+                    "level": 4
                 },
                 {
                     "name": "Python",
-                    "level": 5
+                    "level": 3
                 },
                 {
                     "name": "HTML/CSS",
                     "level": 5
-                },
-                {
-                    "name": "JavaScript",
-                    "level": 3
-                },
-                {
-                    "name": "TypeScript",
-                    "level": 3
                 }
             ]
         },
         {
-            "title": "LANGUAGES & FRAMEWORKS",
+            "title": "TOOLS & PLATFORMS",
             "skills": [
                 {
-                    "name": "Java",
-                    "level": 3
-                },
-                {
-                    "name": "Spring Boot",
-                    "level": 2
-                },
-                {
-                    "name": "Python",
+                    "name": "IntelliJ",
                     "level": 5
                 },
                 {
-                    "name": "HTML/CSS",
+                    "name": "Figma",
                     "level": 5
                 },
                 {
-                    "name": "JavaScript",
-                    "level": 3
+                    "name": "Postman",
+                    "level": 4
                 },
                 {
-                    "name": "TypeScript",
-                    "level": 3
+                    "name": "Git",
+                    "level": 5
+                },
+                {
+                    "name": "Slack",
+                    "level": 5
+                },
+                {
+                    "name": "Trello",
+                    "level": 5
+                }
+            ]
+        },
+        {
+            "title": "DATABASES",
+            "skills": [
+                {
+                    "name": "PostgreSQL",
+                    "level": 4
+                }
+            ]
+        },
+        {
+            "title": "OPERATING SYSTEMS",
+            "skills": [
+                {
+                    "name": "Windows",
+                    "level": 5
+                },
+                {
+                    "name": "Mac OS",
+                    "level": 4
+                }
+            ]
+        },
+        {
+            "title": "LANGUAGES",
+            "skills": [
+                {
+                    "name": "Dutch",
+                    "level": 5
+                },
+                {
+                    "name": "English",
+                    "level": 4
                 }
             ]
         }
@@ -63,45 +106,45 @@
     "experiences": [
         {
             "entity": {
-                "title": "Senior Software Engineer",
-                "company": "Tech Innovators Inc.",
-                "location": "San Francisco, CA",
-                "introduction": "Working as a senior software engineer focusing on frontend development.",
+                "title": "Software Engineer",
+                "company": "TrailBlazers B.V.",
+                "location": "Remote",
+                "introduction": "TrailBlazers is an IT consultancy agency known for its unique collaboration model, emphasizing self-management, proactive teamwork, and positive societal impact. The company values flexibility, collective decision-making, and innovative approaches that benefit employees, partners, and the world at large. As part of my ongoing role with TrailBlazers, I am contributing to building the AED Checker web application, a project aligned with their mission to create meaningful solutions.",
                 "achievements": [
-                    "Led a team of 5 engineers to develop a new web application.",
-                    "Improved application performance by 30%.",
-                    "Implemented a new feature that increased user engagement by 20%."
+                    " Developed a web application for managing the maintenance of automated external defibrillators (AEDs) increasing the rate of AEDs checked monthly by 55% and reducing AED downtime by 45%.",
+                    "Redesigned user interfaces for both desktop and mobile in Figma, and developed them using Angular, resulting in high user adoption and strong initial user satisfaction. ",
+                    "Implemented new features in the Angular application and the RESTful API built with Spring Boot, which led to partnering with a major AED retailer for the development of the application."
                 ]
             },
-            "timePeriod": "06/2020 - Present"
+            "timePeriod": "03/2023 - Present"
         },
         {
             "entity": {
                 "title": "Software Engineer",
-                "company": "Web Solutions Ltd.",
-                "location": "New York, NY",
-                "introduction": "Responsible for developing and maintaining web applications.",
+                "company": "Wondergems",
+                "location": "New York, NY, USA",
+                "introduction": "Wondergems is my personal platform for managing client assignments and exploring innovative projects. It is a space where I continually enhance my skills, experiment with new ideas, and deliver impactful results.\n\n",
                 "achievements": [
-                    "Developed a complex client-side application using React.",
-                    "Reduced the application's load time by 25%.",
-                    "Mentored junior developers and conducted code reviews."
+                    "Created a full stack web application using Angular for the art project WaterWoorden by artist Everdien Breken enhancing the average time visitors spend on the application by 60%.",
+                    "Developed a portfolio website using TypeScript and the Qwik framework resulting in a lightweight single-page application with a near-instant startup performance.",
+                    "Optimized serverless API routes in the California Waste Stream Visualizer built with Next.js and deployed with Vercel decreasing the page weight by 80%."
                 ]
             },
-            "timePeriod": "01/2018 - 05/2020"
+            "timePeriod": "09/2023 - Present"
         },
         {
             "entity": {
-                "title": "Junior Developer",
-                "company": "Innovative Apps",
-                "location": "Austin, TX",
-                "introduction": "Assisted in the development of mobile and web applications.",
+                "title": "Software Engineer",
+                "company": "NOVI Hogeschool",
+                "location": "Utrecht, The Netherlands",
+                "introduction": "Novi is a training agency where I began my coding journey, receiving comprehensive training in full stack web development. Through practical assignments and collaborative projects with fellow developers, I cultivated a solid technical foundation and refined my skills. This training provided me with the expertise and readiness to excel in my role at TrailBlazers.",
                 "achievements": [
-                    "Collaborated on a project that won a local startup competition.",
-                    "Automated testing processes, reducing bugs by 15%.",
-                    "Contributed to the development of 3 mobile apps."
+                    "Developed a web application consisting of a user interface built with React and a RESTful API built with Java and Spring Boot enabling hobby chefs to share menus and manage orders and deliveries.",
+                    "Built an ordering system for a platform selling fruits using React streamlining the the order process for fruit baskets.",
+                    "Designed and built the backend for an inventory management application for a TV retailer using Java, Spring Boot, Spring Security, and JSON Web Tokens for authorization."
                 ]
             },
-            "timePeriod": "05/2015 - 05/2017"
+            "timePeriod": "09/2022 - 02/2023"
         }
     ],
     "degrees": [
