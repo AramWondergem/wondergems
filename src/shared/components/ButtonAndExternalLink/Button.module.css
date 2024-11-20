@@ -1,0 +1,17 @@
+.button {
+    background: var(--rose);
+    color: var(--blue);
+    font-weight: var(--font-weight-700);
+    font-size: var(--fontsize-500);
+    padding: 0.4em;
+    border: none;
+    box-shadow: 6px 6px 0px 0px var(--yellow);
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    transform: translate(6px, 6px);
+    box-shadow: none;
+}

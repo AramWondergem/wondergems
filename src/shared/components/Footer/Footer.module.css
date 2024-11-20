@@ -1,0 +1,21 @@
+.footerOuterbox {
+    flex-direction: row;
+    background: var(--blue);
+    justify-content: center;
+}
+
+.footerInnerbox {
+    display: flex;
+    padding: 0 10px;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerText {
+    color: var(--yellow);
+    padding: 0;
+    margin: 0;
+    font-size: var(--fontsize-400);
+    line-height: 0.7;
+}

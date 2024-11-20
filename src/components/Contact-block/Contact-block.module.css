@@ -1,0 +1,19 @@
+.innerboxContact {
+    flex-grow: 1;
+    max-width: var(--basic-screen-width);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - var(--size-header) - var(--size-footer));
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: var(--fontsize-600);
+}

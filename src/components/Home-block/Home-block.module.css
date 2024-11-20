@@ -1,0 +1,48 @@
+.innerBoxPage {
+    flex: 1 1 calc(100vh - var(--size-header)) !important;
+    max-width: var(--basic-screen-width);
+    width: 100%;
+    align-items: center !important;
+    gap: var(--gap);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+.textIntroduction {
+    flex: 0 1 477px;
+    display: inline-block;
+    width: max-content;
+    line-height: 3;
+    font-size: var(--fontsize-600);
+}
+
+.spanText {
+    white-space: nowrap;
+}
+
+.buttonWrapper {
+    flex: 0 1 477px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: var(--fontsize-600);
+}
+
+.spanButton {
+    text-align: center;
+}
+
+@media (min-width: 534px) {
+    .hideOnDesktopAndTablet {
+        display: none;
+    }
+
+    .textIntroduction {
+        text-align: justify;
+    }
+}

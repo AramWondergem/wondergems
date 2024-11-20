@@ -1,0 +1,170 @@
+{
+    "introduction": "Goal-oriented software developer with proven experience designing and building user-friendly web applications. With expertise in JavaScript, TypeScript, and frameworks like Angular and React, I prioritize user experience throughout the development process, creating intuitive and efficient interfaces. Additionally, my skills in Java and Spring Boot allow me to build REST APIs and seamlessly connect them with front-end applications for optimal performance.",
+    "skillsSections": [
+        {
+            "title": "LANGUAGES & FRAMEWORKS",
+            "skills": [
+                {
+                    "name": "TypeScript",
+                    "level": 5
+                },
+                {
+                    "name": "Angular",
+                    "level": 5
+                },
+                {
+                    "name": "React",
+                    "level": 4
+                },
+                {
+                    "name": "Qwik",
+                    "level": 4
+                },
+                {
+                    "name": "Java",
+                    "level": 5
+                },
+                {
+                    "name": "Spring Boot",
+                    "level": 4
+                },
+                {
+                    "name": "Python",
+                    "level": 3
+                },
+                {
+                    "name": "HTML/CSS",
+                    "level": 5
+                }
+            ]
+        },
+        {
+            "title": "TOOLS & PLATFORMS",
+            "skills": [
+                {
+                    "name": "IntelliJ",
+                    "level": 5
+                },
+                {
+                    "name": "Figma",
+                    "level": 5
+                },
+                {
+                    "name": "Postman",
+                    "level": 4
+                },
+                {
+                    "name": "Git",
+                    "level": 5
+                },
+                {
+                    "name": "Slack",
+                    "level": 5
+                },
+                {
+                    "name": "Trello",
+                    "level": 5
+                }
+            ]
+        },
+        {
+            "title": "DATABASES",
+            "skills": [
+                {
+                    "name": "PostgreSQL",
+                    "level": 4
+                }
+            ]
+        },
+        {
+            "title": "OPERATING SYSTEMS",
+            "skills": [
+                {
+                    "name": "Windows",
+                    "level": 5
+                },
+                {
+                    "name": "Mac OS",
+                    "level": 4
+                }
+            ]
+        },
+        {
+            "title": "LANGUAGES",
+            "skills": [
+                {
+                    "name": "Dutch",
+                    "level": 5
+                },
+                {
+                    "name": "English",
+                    "level": 4
+                }
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "entity": {
+                "title": "Software Engineer",
+                "company": "TrailBlazers B.V.",
+                "location": "Remote",
+                "introduction": "TrailBlazers is an IT consultancy agency known for its unique collaboration model, emphasizing self-management, proactive teamwork, and positive societal impact. The company values flexibility, collective decision-making, and innovative approaches that benefit employees, partners, and the world at large. As part of my ongoing role with TrailBlazers, I am contributing to building the AED Checker web application, a project aligned with their mission to create meaningful solutions.",
+                "achievements": [
+                    " Developed a web application for managing the maintenance of automated external defibrillators (AEDs) increasing the rate of AEDs checked monthly by 55% and reducing AED downtime by 45%.",
+                    "Redesigned user interfaces for both desktop and mobile in Figma, and developed them using Angular, resulting in high user adoption and strong initial user satisfaction. ",
+                    "Implemented new features in the Angular application and the RESTful API built with Spring Boot, which led to partnering with a major AED retailer for the development of the application."
+                ]
+            },
+            "timePeriod": "03/2023 - Present"
+        },
+        {
+            "entity": {
+                "title": "Software Engineer",
+                "company": "Wondergems",
+                "location": "New York, NY, USA",
+                "introduction": "Wondergems is my personal platform for managing client assignments and exploring innovative projects. It is a space where I continually enhance my skills, experiment with new ideas, and deliver impactful results.\n\n",
+                "achievements": [
+                    "Created a full stack web application using Angular for the art project WaterWoorden by artist Everdien Breken enhancing the average time visitors spend on the application by 60%.",
+                    "Developed a portfolio website using TypeScript and the Qwik framework resulting in a lightweight single-page application with a near-instant startup performance.",
+                    "Optimized serverless API routes in the California Waste Stream Visualizer built with Next.js and deployed with Vercel decreasing the page weight by 80%."
+                ]
+            },
+            "timePeriod": "09/2023 - Present"
+        },
+        {
+            "entity": {
+                "title": "Software Engineer",
+                "company": "NOVI Hogeschool",
+                "location": "Utrecht, The Netherlands",
+                "introduction": "Novi is a training agency where I began my coding journey, receiving comprehensive training in full stack web development. Through practical assignments and collaborative projects with fellow developers, I cultivated a solid technical foundation and refined my skills. This training provided me with the expertise and readiness to excel in my role at TrailBlazers.",
+                "achievements": [
+                    "Developed a web application consisting of a user interface built with React and a RESTful API built with Java and Spring Boot enabling hobby chefs to share menus and manage orders and deliveries.",
+                    "Built an ordering system for a platform selling fruits using React streamlining the the order process for fruit baskets.",
+                    "Designed and built the backend for an inventory management application for a TV retailer using Java, Spring Boot, Spring Security, and JSON Web Tokens for authorization."
+                ]
+            },
+            "timePeriod": "09/2022 - 02/2023"
+        }
+    ],
+    "degrees": [
+        {
+            "entity": {
+                "university": "Utrecht University",
+                "degreeType": "Master's degree",
+                "name": "Science & Business Management",
+                "description": ["Management Minor (grade: 8.5 out of 10)"]
+            },
+            "timePeriod": "09/2016 - 01/2020"
+        },
+        {
+            "entity": {
+                "university": "Utrecht University",
+                "degreeType": "Bachelor's degree",
+                "name": "Biomedical Sciences",
+                "description": []
+            },
+            "timePeriod": "09/2011 - 07/2014"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+.headingWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.headerText {
+    color: var(--blue);
+    padding: 0;
+    margin: 0;
+    line-height: var(--line-height-headings);
+}
+
+.rose {
+    background: var(--rose);
+}
+
+.yellow {
+    background: var(--yellow);
+}
+
+@media (max-width: 534px) {
+    h2 {
+        font-size: var(--fontsize-900) !important;
+    }
+}
+
+.small {
+    line-height: var(--line-height-headings-small);
+}
+
+.big {
+    position: sticky;
+    top: var(--size-header);
+    z-index: var(--second-layer);
+}

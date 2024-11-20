@@ -1,0 +1,87 @@
+.menu {
+    background: var(--blue);
+    border: none;
+    height: 100vh;
+    min-width: 150px;
+    left: auto;
+    right: 0;
+    animation: menuOpen 0.5s var(--modal-animation);
+}
+
+.menu[data-closing] {
+    animation: menuClose 0.35s var(--modal-animation);
+}
+
+.menu::backdrop {
+    backdrop-filter: grayscale(20%) blur(3px);
+    animation: backdropFadeIn 0.7s var(--modal-animation);
+}
+
+.menu[data-closing]::backdrop {
+    animation: backDropFadeOut 0.35s var(--modal-animation);
+}
+
+@keyframes backdropFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes backDropFadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes menuOpen {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes menuClose {
+    from {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+        display: none;
+    }
+}
+
+.menuContentWrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: var(--margin-innerbox-mobile-side);
+    padding-top: 0;
+}
+
+.closeButtonWrapper {
+    all: unset;
+    align-self: flex-end;
+    flex: 0 0 var(--size-header);
+    border: transparent 2px dashed;
+}
+
+.closeButton {
+    font-size: var(--fontsize-800);
+    color: var(--white);
+    cursor: pointer;
+}

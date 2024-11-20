@@ -1,0 +1,96 @@
+{
+    "projects": [
+        {
+            "title": "AED CHECKER",
+            "images": [
+                {
+                    "type": "DESKTOP",
+                    "url": "src/assets/AED-Project-in-frame.webp",
+                    "alt": "Picture of the AED Checker app"
+                },
+                {
+                    "type": "MOBILE",
+                    "url": "src/assets/AED-Project-in-frame-mobile.webp",
+                    "alt": "Picture of the AED Checker app"
+                }
+            ],
+            "description": "The AED Checker application, developed by TrailBlazers, streamlines the management and readiness of Automated External Defibrillators (AEDs) across various locations. It automatically notifies AED inspectors when it's time for maintenance checks, allowing them to report each device’s status on-site through a mobile interface. Additionally, technicians and administrators can easily track, update, and manage AED information and maintenance actions via the web application, ensuring that AEDs are always prepared for emergency use.",
+            "tasks": [
+                "Redesigned user interfaces for both desktop and mobile in Figma, and developed them using Angular, resulting in high user adoption and strong initial user satisfaction.",
+                "Implemented new features in the Angular application and the RESTful API built with Spring Boot, which led to partnering with a major AED retailer for the development of the application.",
+                "Restructured and optimized the frontend codebase, enhancing developer experience and significantly increasing development efficiency."
+            ],
+            "technologies": "TypeScript, Angular, Java, Spring Boot and Figma",
+            "buttons": [
+                {
+                    "label": "Website",
+                    "url": "https://www.trailblazers.nl/artikelen/de-aed-checker-applicatie/"
+                }
+            ]
+        },
+        {
+            "title": "WaterWoorden App",
+            "images": [
+                {
+                    "type": "DESKTOP",
+                    "url": "src/assets/WaterWoorden-in-frame.webp",
+                    "alt": "Picture of the WaterWoorden app"
+                },
+                {
+                    "type": "MOBILE",
+                    "url": "src/assets/WaterWoorden-in-frame-mobile.webp",
+                    "alt": "Picture of the WaterWoorden app"
+                }
+            ],
+            "description": "I developed an application for artist Everdien Breken, centered around her artwork \"Een Waal van Woorden,\" which is a stunning installation that transforms Dutch words connected to water into a virtual river flowing across the screen. The app is designed for mobile use, enhancing accessibility and user experience. It simplifies the process of looking up definitions of the words featured in the artwork.",
+            "tasks": [
+                "Designed the user interfaces for the application in Figma, incorporating client feedback to tailor the experience to her needs.",
+                "Developed the application using TypeScript and Angular, translating the design into a fully functional product.",
+                "Configured the application to align with the client’s production environment requirements."
+            ],
+            "technologies": "TypeScript, Angular and Figma",
+            "buttons": [
+                {
+                    "label": "App",
+                    "url": "https://everdienbreken.org/Waterwoorden/"
+                },
+                {
+                    "label": "Code base",
+                    "url": "https://github.com/AramWondergem/waterwoorden"
+                }
+            ]
+        },
+        {
+            "title": "Wondergems",
+            "images": [
+                {
+                    "type": "DESKTOP",
+                    "url": "src/assets/wondergems-in-frame.webp",
+                    "alt": "Picture of the wondergems.dev website"
+                },
+                {
+                    "type": "MOBILE",
+                    "url": "src/assets/wondergems-in-frame-mobile.webp",
+                    "alt": "Picture of the wondergems.dev website"
+                }
+            ],
+            "description": "For my personal portfolio project, I used Qwik, a new JavaScript framework launched in 2023 that prioritizes speed and scalability for complex web applications. Unlike traditional frameworks, Qwik avoids hydration by loading scripts in smaller chunks, executing them only when necessary, which enables faster page loads and a smooth user experience. In building the site, I also experimented with sustainable web design practices from Sustainable Web Design in 20 Lessons by Michael Andersen. These principles guided me in implementing efficient, eco-friendly design choices throughout the site.",
+            "tasks": [
+                "Created responsive application pages in Figma, optimized for both mobile and desktop experiences.",
+                "Built the application with TypeScript and Qwik, turning the design into a fully functional and adaptive product.",
+                "Managed deployment and maintenance, ensuring reliable performance in the production environment. "
+            ],
+            "technologies": "TypeScript, Qwik and Figma",
+            "buttons": [
+                {
+                    "label": "Website",
+                    "url": "https://wondergems.dev"
+                },
+                {
+                    "label": "Code base",
+                    "url": "https://github.com/AramWondergem/wondergems/tree/main"
+                }
+            ]
+        }
+    ]
+}

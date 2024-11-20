@@ -1,0 +1,268 @@
+/*--------------------CSS Reset-----------------------------*/
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+    min-height: 100vh;
+}
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+}
+
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/*-------------------Global Styles-----------------------------*/
+
+/*-------------------custom properties------------------------- */
+
+:root {
+    --font-headings: 'Rubik Variable', sans-serif;
+    --font-body: 'Rubik Variable', sans-serif;
+
+    --font-weight-300: 300;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+
+    --fontsize-100: 0.512rem;
+    --fontsize-200: 0.64rem;
+    --fontsize-300: 0.8rem;
+    --fontsize-400: 1rem;
+    --fontsize-500: 1.25rem;
+    --fontsize-600: 1.563rem;
+    --fontsize-700: 1.953rem;
+    --fontsize-800: 2.441rem;
+    --fontsize-900: 3.052rem;
+    --fontsize-1000: 4.5rem;
+
+    --padding-extra-smal: 0.2em;
+    --padding-small: 0.5em;
+    --padding-medium: 2em;
+    --padding-large: 4em;
+    --padding-XL: 5em;
+
+    --black: hsla(240, 67%, 2%, 1);
+    --blue: hsla(217, 87%, 15%, 1);
+    --rose: hsla(332, 96%, 64%, 1);
+    --yellow: hsla(49, 93%, 56%, 1);
+    --white: hsla(105, 67%, 96%, 1);
+
+    --background-body: var(--white);
+
+    --basic-screen-width: 1300px;
+    --margin-innerbox-desktop-top: var(--padding-XL);
+    --margin-innerbox-desktop-side: 40px;
+    --margin-innerbox-mobile-top: var(--padding-large);
+    --margin-innerbox-mobile-side: 25px;
+
+    --line-height-headings: 0.66;
+    --line-height-headings-small: 0.7;
+
+    --size-header: 2.9rem;
+
+    --size-footer: 0.7rem;
+
+    --modal-animation: forwards cubic-bezier(0.6, 0.6, 0, 1);
+
+    --first-layer: 100;
+    --second-layer: 90;
+    --third-layer: 80;
+    --gap: var(--padding-large);
+}
+
+/*-------------------utility classes --------------------------*/
+
+.outerbox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.innerbox {
+    display: flex;
+    padding: var(--margin-innerbox-desktop-top) var(--margin-innerbox-desktop-side);
+}
+
+@media (max-width: 768px) {
+    .innerbox {
+        padding: var(--margin-innerbox-mobile-top) var(--margin-innerbox-mobile-side);
+    }
+    .hideOnMobile {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .hideOnDesktop {
+        display: none;
+    }
+}
+
+*:focus-visible {
+    outline: springgreen 3px solid;
+}
+
+.section {
+    margin-top: var(--size-header);
+}
+
+/*------------------Fonts-----------------*/
+
+body,
+p,
+textarea,
+input,
+label {
+    font-family: var(--font-body);
+    font-weight: var(--font-weight-400);
+    font-size: var(--fontsize-400);
+    color: var(--blue);
+}
+
+p,
+li {
+    text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--font-headings);
+    font-weight: var(--font-weight-700);
+    color: var(--blue);
+}
+
+h1 {
+    font-size: var(--fontsize-1000);
+}
+
+h2 {
+    font-size: var(--fontsize-1000);
+}
+
+h3 {
+    font-size: var(--fontsize-800);
+}
+
+h4 {
+    font-size: var(--fontsize-600);
+}
+
+h5 {
+    font-size: var(--fontsize-500);
+}
+
+a,
+.Navlink,
+.Link {
+    font-family: var(--font-headings);
+    font-weight: var(--font-weight-700);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.span {
+    color: var(--yellow);
+    font-weight: var(--font-weight-600);
+    padding: 0.2em;
+    margin-right: 4px;
+    background: var(--blue);
+    border-radius: 0.2em;
+    box-shadow: 4px 4px 0px 0px var(--rose);
+    line-height: 1;
+}
+
+em {
+    font-weight: var(--font-weight-500);
+}

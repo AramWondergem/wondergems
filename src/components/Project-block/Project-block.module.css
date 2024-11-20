@@ -1,0 +1,9 @@
+.innerBoxPage {
+    max-width: var(--basic-screen-width);
+    width: 100%;
+    align-items: center;
+    gap: var(--gap);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
