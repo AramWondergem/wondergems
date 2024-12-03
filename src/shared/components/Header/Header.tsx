@@ -20,11 +20,8 @@ export const Header = component$<HeaderProps>(() => {
                             <span>ARAM</span> <span class={[styles.headerLogoHide]}>WONDERGEM</span>
                         </h1>
                     </div>
-                    {/*<div className={['hideOnMobile', styles.navLinks]}>*/}
-                    {/*    <NavLinks flexDirection={'row'} onClick={null} />*/}
-                    {/*</div>*/}
                     <div class={['hideOnMobile', styles.navLinks]}>
-                        <NavLinks flexDirection={'row'} />
+                        <NavLinks flexDirection={'row'} onClick$={null} />
                     </div>
                     <button
                         class={['hideOnDesktop', styles.headerMenuWrapper]}

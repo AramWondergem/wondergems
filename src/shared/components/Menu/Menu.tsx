@@ -21,11 +21,10 @@ export const Menu = component$<MenuProps>((props) => {
                         >
                             <MoClose class={[styles.closeButton]} />
                         </button>
-                        {/*<NavLinks*/}
-                        {/*    flexDirection={'column'}*/}
-                        {/*    onClick={() => (props.isOpen.value = false)}*/}
-                        {/*/>*/}
-                        <NavLinks flexDirection={'column'} />
+                        <NavLinks
+                            flexDirection={'column'}
+                            onClick$={() => (props.isOpen.value = false)}
+                        />
                     </div>
                 </Modal.Panel>
             </Modal.Root>
