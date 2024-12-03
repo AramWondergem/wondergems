@@ -21,7 +21,7 @@ export const Header = component$<HeaderProps>(() => {
                         </h1>
                     </div>
                     <div class={['hideOnMobile', styles.navLinks]}>
-                        <NavLinks flexDirection={'row'} onClick={null} />
+                        <NavLinks flexDirection={'row'} onClick$={null} />
                     </div>
                     <button
                         class={['hideOnDesktop', styles.headerMenuWrapper]}

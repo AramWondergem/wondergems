@@ -13,6 +13,7 @@ export default extendConfig(baseConfig, () => {
     plugins: [cloudflarePagesAdapter({
       ssg: {
         include: ['/*'],
+        exclude: [],
         origin: 'https://wondergems.dev',
       },
     })],
