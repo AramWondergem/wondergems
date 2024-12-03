@@ -4,13 +4,13 @@
             "title": "AED CHECKER",
             "images": [
                 {
-                    "type": "DESKTOP",
-                    "url": "src/assets/AED-Project-in-frame.webp",
+                    "type": 1,
+                    "url": "https://wondergems.dev/images/AED-Project-in-frame.webp",
                     "alt": "Picture of the AED Checker app"
                 },
                 {
-                    "type": "MOBILE",
-                    "url": "src/assets/AED-Project-in-frame-mobile.webp",
+                    "type": 0,
+                    "url": "https://wondergems.dev/images/AED-Project-in-frame-mobile.webp",
                     "alt": "Picture of the AED Checker app"
                 }
             ],
@@ -32,13 +32,13 @@
             "title": "WaterWoorden App",
             "images": [
                 {
-                    "type": "DESKTOP",
-                    "url": "src/assets/WaterWoorden-in-frame.webp",
+                    "type": 1,
+                    "url": "https://wondergems.dev/images/WaterWoorden-in-frame.webp",
                     "alt": "Picture of the WaterWoorden app"
                 },
                 {
-                    "type": "MOBILE",
-                    "url": "src/assets/WaterWoorden-in-frame-mobile.webp",
+                    "type": 0,
+                    "url": "https://wondergems.dev/images/WaterWoorden-in-frame-mobile.webp",
                     "alt": "Picture of the WaterWoorden app"
                 }
             ],
@@ -64,13 +64,13 @@
             "title": "Wondergems",
             "images": [
                 {
-                    "type": "DESKTOP",
-                    "url": "src/assets/wondergems-in-frame.webp",
+                    "type": 1,
+                    "url": "https://wondergems.dev/images/wondergems-in-frame.webp",
                     "alt": "Picture of the wondergems.dev website"
                 },
                 {
-                    "type": "MOBILE",
-                    "url": "src/assets/wondergems-in-frame-mobile.webp",
+                    "type": 0,
+                    "url": "https://wondergems.dev/images/AED-Project-in-frame.webp",
                     "alt": "Picture of the wondergems.dev website"
                 }
             ],

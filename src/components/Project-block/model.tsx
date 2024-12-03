@@ -1,6 +1,6 @@
 export enum ImageType {
-    MOBILE = 'MOBILE',
-    DESKTOP = 'DESKTOP'
+    MOBILE,
+    DESKTOP
 }
 
 export interface ProjectImage {

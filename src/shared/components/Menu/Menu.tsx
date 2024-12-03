@@ -1,4 +1,4 @@
-import { component$, Signal, $ } from '@builder.io/qwik';
+import { component$, Signal } from '@builder.io/qwik';
 import { Modal } from '@qwik-ui/headless';
 import styles from './Menu.module.css';
 import { NavLinks } from '~/shared/components/NavLinks/NavLinks';
@@ -21,10 +21,11 @@ export const Menu = component$<MenuProps>((props) => {
                         >
                             <MoClose class={[styles.closeButton]} />
                         </button>
-                        <NavLinks
-                            flexDirection={'column'}
-                            onClick={$(() => (props.isOpen.value = false))}
-                        />
+                        {/*<NavLinks*/}
+                        {/*    flexDirection={'column'}*/}
+                        {/*    onClick={() => (props.isOpen.value = false)}*/}
+                        {/*/>*/}
+                        <NavLinks flexDirection={'column'} />
                     </div>
                 </Modal.Panel>
             </Modal.Root>

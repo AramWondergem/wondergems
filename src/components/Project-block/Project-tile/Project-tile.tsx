@@ -2,7 +2,6 @@ import { component$ } from '@builder.io/qwik';
 import { Heading } from '~/shared/components/Heading/Heading';
 import styles from './Project-tile.module.css';
 import type { ProjectData } from '~/components/Project-block/model';
-import { ImageType } from '~/components/Project-block/model';
 import { LinkButton } from '~/shared/components/ButtonAndExternalLink/LinkButton';
 
 export interface ProjectTileProps {
@@ -21,23 +20,13 @@ export const ProjectTile = component$<ProjectTileProps>((props) => {
                         <source
                             key={`projectPicture${index}`}
                             srcset={image.url}
-                            media={
-                                image.type === 'MOBILE'
-                                    ? '(max-width: 599px)'
-                                    : '(min-width: 600px)'
-                            }
+                            media={image.type === 0 ? '(max-width: 599px)' : '(min-width: 600px)'}
                         />
                     ))}
                     {images
-                        .filter((image) => image.type === ImageType.DESKTOP)
+                        .filter((image) => image.type === 1)
                         .map((image) => (
-                            <img
-                                key={`defaultPicture${title}`}
-                                width={'100%'}
-                                height={'100%'}
-                                src={image.url}
-                                alt={image.alt}
-                            />
+                            <img key={`defaultPicture${title}`} src={image.url} alt={image.alt} />
                         ))}
                 </picture>
                 <div class={[styles.textWrapper]}>
