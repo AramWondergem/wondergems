@@ -1,4 +1,5 @@
-import { component$, Signal } from '@builder.io/qwik';
+import type { Signal } from '@builder.io/qwik';
+import { component$ } from '@builder.io/qwik';
 import { Modal } from '@qwik-ui/headless';
 import styles from './Menu.module.css';
 import { NavLinks } from '~/shared/components/NavLinks/NavLinks';

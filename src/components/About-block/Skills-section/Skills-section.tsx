@@ -1,7 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import { Heading } from '~/shared/components/Heading/Heading';
 import styles from './Skills-section.module.css';
-import { Skill } from '~/components/About-block/model';
+import type { Skill } from '~/components/About-block/model';
 import { SkillElement } from '~/components/About-block/SkillElement/Skill-element';
 
 export interface SkillsSectionProps {

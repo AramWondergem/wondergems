@@ -1,4 +1,5 @@
-import { component$, QRL } from '@builder.io/qwik';
+import type { QRL } from '@builder.io/qwik';
+import { component$ } from '@builder.io/qwik';
 import styles from './NavLinks.module.css';
 
 export interface NavLinksProps {

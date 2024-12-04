@@ -1,4 +1,5 @@
-import { component$, Signal, useSignal } from '@builder.io/qwik';
+import type { Signal } from '@builder.io/qwik';
+import { component$, useSignal } from '@builder.io/qwik';
 import styles from './Header.module.css';
 import { MoMenu } from '@qwikest/icons/monoicons';
 import { Menu } from '~/shared/components/Menu/Menu';
