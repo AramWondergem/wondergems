@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 import { Heading } from '~/shared/components/Heading/Heading';
 import styles from './About-block.module.css';
 import aboutData from '~/assets/about-data.json';
-import { AboutData, Experience, TimeLineElement } from '~/components/About-block/model';
+import type { AboutData, Experience, TimeLineElement } from '~/components/About-block/model';
 import { SkillsSection } from '~/components/About-block/Skills-section/Skills-section';
 import { WorkExperience } from '~/components/About-block/Work-experience/Work-experience';
 import { LinkButton } from '~/shared/components/ButtonAndExternalLink/LinkButton';

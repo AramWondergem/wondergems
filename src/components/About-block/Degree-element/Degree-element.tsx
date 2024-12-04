@@ -1,6 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import styles from './Degree-element.module.css';
-import { Degree } from '~/components/About-block/model';
+import type { Degree } from '~/components/About-block/model';
 
 export interface DegreeProps {
     degree: Degree;

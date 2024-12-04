@@ -1,7 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import styles from './Work-experience.module.css';
 import { Heading } from '~/shared/components/Heading/Heading';
-import { Experience } from '~/components/About-block/model';
+import type { Experience } from '~/components/About-block/model';
 
 export interface ExperienceSectionProps {
     experience: Experience;
