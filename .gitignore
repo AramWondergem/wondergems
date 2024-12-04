@@ -42,3 +42,9 @@ lerna-debug.log*
 
 # Cloudflare
 functions/**/*.js
+
+#extra
+.wrangler
+tmp
+
+
