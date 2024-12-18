@@ -1,3 +1,7 @@
+.outerboxContact {
+    background: linear-gradient(45deg, #a0c2f8ff, #fd9bc9ff, #fbea9dff, #f3fcf0ff);
+}
+
 .innerboxContact {
     flex-grow: 1;
     max-width: var(--basic-screen-width);
