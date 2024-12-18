@@ -23,7 +23,7 @@
             "technologies": "TypeScript, Angular, Java, Spring Boot and Figma",
             "buttons": [
                 {
-                    "label": "Website",
+                    "label": "Visit project website",
                     "url": "https://www.trailblazers.nl/artikelen/de-aed-checker-applicatie/"
                 }
             ]
@@ -51,11 +51,11 @@
             "technologies": "TypeScript, Angular and Figma",
             "buttons": [
                 {
-                    "label": "App",
+                    "label": "Check out app",
                     "url": "https://everdienbreken.org/Waterwoorden/"
                 },
                 {
-                    "label": "Code base",
+                    "label": "See code base",
                     "url": "https://github.com/AramWondergem/waterwoorden"
                 }
             ]
@@ -83,11 +83,11 @@
             "technologies": "TypeScript, Qwik and Figma",
             "buttons": [
                 {
-                    "label": "Website",
+                    "label": "Visit website",
                     "url": "https://wondergems.dev"
                 },
                 {
-                    "label": "Code base",
+                    "label": "See code base",
                     "url": "https://github.com/AramWondergem/wondergems/tree/main"
                 }
             ]
