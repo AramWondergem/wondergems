@@ -5,12 +5,12 @@
             "images": [
                 {
                     "type": 1,
-                    "url": "https://wondergems.dev/images/AED-Project-in-frame.webp",
+                    "url": "https://wondergems.dev/images/desktop-aedchecker-compressed.webp",
                     "alt": "Picture of the AED Checker app"
                 },
                 {
                     "type": 0,
-                    "url": "https://wondergems.dev/images/AED-Project-in-frame-mobile.webp",
+                    "url": "https://wondergems.dev/images/mobile-aedchecker-compressed.webp",
                     "alt": "Picture of the AED Checker app"
                 }
             ],
@@ -23,7 +23,7 @@
             "technologies": "TypeScript, Angular, Java, Spring Boot and Figma",
             "buttons": [
                 {
-                    "label": "Website",
+                    "label": "Visit project website",
                     "url": "https://www.trailblazers.nl/artikelen/de-aed-checker-applicatie/"
                 }
             ]
@@ -33,12 +33,12 @@
             "images": [
                 {
                     "type": 1,
-                    "url": "https://wondergems.dev/images/WaterWoorden-in-frame.webp",
+                    "url": "https://wondergems.dev/images/desktop-waterwoorden-compressed.webp",
                     "alt": "Picture of the WaterWoorden app"
                 },
                 {
                     "type": 0,
-                    "url": "https://wondergems.dev/images/WaterWoorden-in-frame-mobile.webp",
+                    "url": "https://wondergems.dev/images/mobile-waterwoorden-compressed.webp",
                     "alt": "Picture of the WaterWoorden app"
                 }
             ],
@@ -51,11 +51,11 @@
             "technologies": "TypeScript, Angular and Figma",
             "buttons": [
                 {
-                    "label": "App",
+                    "label": "Check out app",
                     "url": "https://everdienbreken.org/Waterwoorden/"
                 },
                 {
-                    "label": "Code base",
+                    "label": "See code base",
                     "url": "https://github.com/AramWondergem/waterwoorden"
                 }
             ]
@@ -65,12 +65,12 @@
             "images": [
                 {
                     "type": 1,
-                    "url": "https://wondergems.dev/images/wondergems-in-frame.webp",
+                    "url": "https://wondergems.dev/images/desktop-wondergems-compressed.webp",
                     "alt": "Picture of the wondergems.dev website"
                 },
                 {
                     "type": 0,
-                    "url": "https://wondergems.dev/images/wondergems-in-frame-mobile.webp",
+                    "url": "https://wondergems.dev/images/mobile-wondergems-compressed.webp",
                     "alt": "Picture of the wondergems.dev website"
                 }
             ],
@@ -83,11 +83,11 @@
             "technologies": "TypeScript, Qwik and Figma",
             "buttons": [
                 {
-                    "label": "Website",
+                    "label": "Visit website",
                     "url": "https://wondergems.dev"
                 },
                 {
-                    "label": "Code base",
+                    "label": "See code base",
                     "url": "https://github.com/AramWondergem/wondergems/tree/main"
                 }
             ]
