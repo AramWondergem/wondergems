@@ -1,10 +1,15 @@
-# Qwik City App ⚡️
+# Personal Portfolio Website - [wondergems.dev](https://wondergems.dev)
 
-- [Qwik Docs](https://qwik.dev/)
-- [Discord](https://qwik.dev/chat)
-- [Qwik GitHub](https://github.com/QwikDev/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
-- [Vite](https://vitejs.dev/)
+This repository contains the codebase for my personal portfolio website, [wondergems.dev](https://wondergems.dev). Built using **Qwik**, a modern JavaScript framework launched in 2023, the site prioritizes speed, scalability, and user experience.
+
+**Qwik** is a cutting-edge framework comparable to React but uniquely designed to avoid hydration. Instead, it loads scripts in smaller chunks and executes them only when necessary, resulting in faster page loads and a seamless browsing experience. This innovative approach makes Qwik particularly suitable for complex web applications.
+
+For this project, I also explored sustainable web design principles inspired by *Sustainable Web Design in 20 Lessons* by Michael Andersen. These principles guided me in implementing efficient and eco-friendly design choices to minimize the site's environmental footprint.
+
+The website is deployed using **Cloudflare Pages**, ensuring reliable performance and scalability.
+
+Feel free to explore the codebase and learn more about how Qwik and sustainable web design practices can work together to create fast and efficient web applications.
+
 
 ---
 
