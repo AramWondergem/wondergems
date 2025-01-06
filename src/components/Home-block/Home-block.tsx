@@ -11,7 +11,7 @@ export const HomeBlock = component$<IntroductionProps>(() => {
                 <p class={[styles.textIntroduction]}>
                     Hi there 🖐,
                     <br />
-                    Nice to have you on my website. My name is{' '}
+                    It is great to have you on my website. My name is{' '}
                     <span class={[styles.spanText, 'span']}>ARAM WONDERGEM</span>, a Full Stack Web
                     Developer located in{' '}
                     <span class={[styles.spanText, 'span']}>New York City</span>. I thrive on
