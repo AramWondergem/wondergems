@@ -116,7 +116,7 @@
                     "Implemented new features in the Angular application and the RESTful API built with Spring Boot, which led to partnering with a major AED retailer for the development of the application."
                 ]
             },
-            "timePeriod": "03/2023 - Present"
+            "timePeriod": "03/2023 — Present"
         },
         {
             "entity": {
@@ -130,7 +130,7 @@
                     "Optimized serverless API routes in the California Waste Stream Visualizer built with Next.js and deployed with Vercel decreasing the page weight by 80%."
                 ]
             },
-            "timePeriod": "09/2023 - Present"
+            "timePeriod": "09/2023 — Present"
         },
         {
             "entity": {
@@ -144,7 +144,7 @@
                     "Designed and built the backend for an inventory management application for a TV retailer using Java, Spring Boot, Spring Security, and JSON Web Tokens for authorization."
                 ]
             },
-            "timePeriod": "09/2022 - 02/2023"
+            "timePeriod": "09/2022 — 02/2023"
         }
     ],
     "degrees": [
@@ -155,7 +155,7 @@
                 "name": "Science & Business Management",
                 "description": ["Management Minor (grade: 8.5 out of 10)"]
             },
-            "timePeriod": "09/2016 - 01/2020"
+            "timePeriod": "09/2016 — 01/2020"
         },
         {
             "entity": {
@@ -164,7 +164,7 @@
                 "name": "Biomedical Sciences",
                 "description": []
             },
-            "timePeriod": "09/2011 - 07/2014"
+            "timePeriod": "09/2011 — 07/2014"
         }
     ]
 }
