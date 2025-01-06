@@ -67,6 +67,10 @@ export const head: DocumentHead = {
         {
             name: 'og:url',
             content: 'https://wondergems.dev'
+        },
+        {
+            name: 'format-detection', // makes sure that safari does not automatically detect phone numbers
+            content: 'telephone=no'
         }
     ],
     links: [
