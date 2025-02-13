@@ -1,13 +1,15 @@
 import { component$ } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
+import { DocumentHead } from '@builder.io/qwik-city';
 import { HomeBlock } from '~/components/Home-block/Home-block';
 import { ProjectBlock } from '~/components/Project-block/Project-block';
 import { AboutBlock } from '~/components/About-block/About-block';
 import { ContactBlock } from '~/components/Contact-block/Contact-block';
+import { CO2Element } from '~/shared/components/CO2Element/CO2Element';
 
 export default component$(() => {
     return (
         <div class={['outerbox']}>
+            <CO2Element />
             <HomeBlock />
             <ProjectBlock />
             <AboutBlock />
