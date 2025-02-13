@@ -57,9 +57,7 @@ export const CO2Element = component$<CO2ElementProps>(() => {
                     <span class={[styles.number]}>Measuring CO₂...</span>
                 ) : (
                     <span class={[styles.number]}>
-                        {CO2Data.ok
-                            ? `${CO2Data.data.c}g of CO<sub>2</sub>/view`
-                            : 'Measuring CO₂...'}
+                        {CO2Data.ok ? `${CO2Data.data.c}g of CO<sub>2</sub>/view` : 'No result'}
                     </span>
                 )}
 
@@ -73,7 +71,7 @@ export const CO2Element = component$<CO2ElementProps>(() => {
                 </a>
             </div>
 
-            {!loading.value && !CO2Data.ok ? (
+            {!loading.value && CO2Data.ok ? (
                 <span class={[styles.text]}>Cleaner than {CO2Data.data.p}% of pages tested</span>
             ) : (
                 <span></span>
