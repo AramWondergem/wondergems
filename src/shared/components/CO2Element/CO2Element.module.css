@@ -1,0 +1,72 @@
+.carbonbadge {
+    background: var(--blue);
+    padding: 0.75em;
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.4em;
+    border-radius: 12px;
+    box-shadow: 2px 2px 0px 0px var(--rose);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: var(--fontsize-200);
+    z-index: var(--first-layer);
+    transition-duration: 300ms;
+}
+
+.numberAndLinkWrapper {
+    background: var(--white);
+    border: var(--rose) 2px solid;
+    border-radius: 12px;
+}
+
+.number,
+.link {
+    padding: 0.25em 0.5em;
+}
+
+.link {
+    background: var(--rose);
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.text {
+    color: var(--white);
+}
+
+.carbonbadge:hover,
+.carbonbadge:active,
+.carbonbadge:focus-visible,
+.carbonbadge:focus-within {
+    scale: 2;
+    right: 120px;
+    bottom: 40px;
+}
+
+.link:hover,
+.link:focus-visible {
+    box-shadow: none;
+    color: var(--blue);
+}
+
+@media (max-width: 768px) {
+    .carbonbadge {
+        right: 10px;
+        bottom: 10px;
+        font-size: var(--fontsize-100);
+        padding: 0.5em;
+        padding-top: 0.75em;
+    }
+    .carbonbadge:hover,
+    .carbonbadge:active,
+    .carbonbadge:focus-visible,
+    .carbonbadge:focus-within {
+        scale: 2;
+        right: 85px;
+        bottom: 30px;
+    }
+}
