@@ -14,7 +14,7 @@
                     "alt": "Picture of the AED Checker app"
                 }
             ],
-            "description": "The AED Checker application, developed by TrailBlazers, streamlines the management and readiness of Automated External Defibrillators (AEDs) across various locations. It automatically notifies AED inspectors when it's time for maintenance checks, allowing them to report each device’s status on-site through a mobile interface. Additionally, technicians and administrators can easily track, update, and manage AED information and maintenance actions via the web application, ensuring that AEDs are always prepared for emergency use.",
+            "description": "The AED Checker application, developed by TrailBlazers, streamlines the management of Automated External Defibrillators (AEDs) across various locations. It automatically notifies AED inspectors when it's time for maintenance checks, allowing them to update each device’s status on-site through a mobile interface. Additionally, technicians and administrators can easily track, update, and manage AED information and maintenance actions via the web application, ensuring that AEDs are always prepared for emergency use.",
             "tasks": [
                 "Redesigned user interfaces for both desktop and mobile in Figma, and developed them using Angular, resulting in high user adoption and strong initial user satisfaction.",
                 "Implemented new features in the Angular application and the RESTful API built with Spring Boot, which led to partnering with a major AED retailer for the development of the application.",
@@ -74,7 +74,7 @@
                     "alt": "Picture of the wondergems.dev website"
                 }
             ],
-            "description": "For my personal portfolio project, I used Qwik, a new JavaScript framework launched in 2023 that prioritizes speed and scalability for complex web applications. Unlike traditional frameworks, Qwik avoids hydration by loading scripts in smaller chunks, executing them only when necessary, which enables faster page loads and a smooth user experience. In building the site, I also experimented with sustainable web design practices from Sustainable Web Design in 20 Lessons by Michael Andersen. These principles guided me in implementing efficient, eco-friendly design choices throughout the site.",
+            "description": "For my portfolio project, I used Qwik, a new JavaScript framework launched in 2023 that prioritizes speed and scalability for complex web applications. Unlike traditional frameworks, Qwik avoids hydration by loading scripts in smaller chunks, executing them only when necessary, which enables faster page loads and a smooth user experience. In building the site, I also experimented with sustainable web design practices from Sustainable Web Design in 20 Lessons by Michael Andersen. These principles guided me in implementing efficient, eco-friendly design choices throughout the site.",
             "tasks": [
                 "Created responsive application pages in Figma, optimized for both mobile and desktop experiences.",
                 "Built the application with TypeScript and Qwik, turning the design into a fully functional and adaptive product.",
