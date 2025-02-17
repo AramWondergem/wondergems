@@ -52,6 +52,8 @@ export const CO2Element = component$<CO2ElementProps>(() => {
 
     return (
         <div class={[styles.carbonbadge]} tabIndex={0}>
+            <div id='wcb' class='carbonbadge'></div>
+            <script src='https://unpkg.com/website-carbon-badges@1.1.3/b.min.js' defer></script>
             <div class={[styles.numberAndLinkWrapper]}>
                 {loading.value ? (
                     <span class={[styles.number]}>Measuring CO₂...</span>

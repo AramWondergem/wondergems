@@ -21,7 +21,7 @@ export const ContactBlock = component$<ContactBlockProps>(() => {
                     </LinkButton>
                     <span class={[styles.spanButton]}>and</span>
                     <LinkButton
-                        url={'https://meet.risecalendar.com/aramwondergem/coffee-chat-website-aram'}
+                        url={'https://cal.com/aram-wondergem-rj4ool/coffee-chat'}
                         target={'_blank'}
                     >
                         Schedule a coffee chat with me

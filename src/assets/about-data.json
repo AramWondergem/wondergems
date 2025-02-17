@@ -137,7 +137,7 @@
                 "title": "Software Engineer",
                 "company": "NOVI Hogeschool",
                 "location": "Utrecht, The Netherlands",
-                "introduction": "Novi is a training agency where I began my coding journey, receiving comprehensive training in full stack web development. Through practical assignments and collaborative projects with fellow developers, I cultivated a solid technical foundation and refined my skills. This training provided me with the expertise and readiness to excel in my role at TrailBlazers.",
+                "introduction": "Novi is a training agency where I began my coding journey. I received a comprehensive training in full stack web development. Through practical assignments and collaborative projects with fellow developers, I cultivated a solid technical foundation and refined my skills. This training provided me with the expertise and readiness to excel in my role at TrailBlazers.",
                 "achievements": [
                     "Developed a web application consisting of a user interface built with React and a RESTful API built with Java and Spring Boot enabling hobby chefs to share menus and manage orders and deliveries.",
                     "Built an ordering system for a platform selling fruits using React streamlining the the order process for fruit baskets.",
