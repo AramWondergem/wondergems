@@ -26,7 +26,12 @@ export const ProjectTile = component$<ProjectTileProps>((props) => {
                     {images
                         .filter((image) => image.type === 1)
                         .map((image) => (
-                            <img key={`defaultPicture${title}`} src={image.url} alt={image.alt} />
+                            <img
+                                key={`defaultPicture${title}`}
+                                src={image.url}
+                                alt={image.alt}
+                                loading='lazy'
+                            />
                         ))}
                 </picture>
                 <div class={[styles.textWrapper]}>
